@@ -23,7 +23,7 @@
                     <div class="card-body">
                         <h5 class="card-title">1 GIGA</h5>
                         <p class="card-text">La fibra que se adapta a ti</p>
-                        <a href="#" class="btn btn-primary">Saber más</a>
+                        <a href="#" class="btn btn-primary">Saber mas</a>
                     </div>
                 </div>
             </div>
