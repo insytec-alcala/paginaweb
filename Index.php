@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+    <?php include 'navbar.php' ?>
 
     <header class="bg-dark text-white text-center py-5" style="background-image: url('./img/fibraole/portada_index.jpeg'); background-size: cover;">
         <div class="container">
