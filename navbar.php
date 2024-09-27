@@ -8,16 +8,16 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item px-3">
+                <li class="nav-item px-4">
                     <a class="nav-link fw-bold" href="Fibra.php">Fibra</a>
                 </li>
-                <li class="nav-item px-3">
+                <li class="nav-item px-4">
                     <a class="nav-link fw-bold" href="packahorro.php">Packs Ahorro</a>
                 </li>
-                <li class="nav-item px-3">
+                <li class="nav-item px-4">
                     <a class="nav-link fw-bold" href="telefoniatv.php">Telefonía+TV</a>
                 </li>
-                <li class="nav-item px-3">
+                <li class="nav-item px-4">
                     <a class="nav-link fw-bold" href="serviciotecnico.php">Servicio Técnico</a>
                 </li>
             </ul>
