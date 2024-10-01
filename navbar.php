@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-4 ">
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-5 ">
     <div class="container d-flex justify-content-center">
         <!-- Centrado del logo con ms-auto -->
         <a class="navbar-brand ms-auto me-3" href="#">FibraOlé</a>
