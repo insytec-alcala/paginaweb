@@ -83,7 +83,15 @@ header h1 {
     border: none;
     width: 50%;
 }
+@media (min-width: 768px) {
+    .custom-margin {
+        margin-top: -10%;
+    }
+}
+/*todavia no funciona, veré como subir las tarjetas */
 
+/*
 #tarjetas{
     margin-top: -10%;
 }
+    */
