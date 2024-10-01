@@ -46,7 +46,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card card-principal shadow-sm border-0">
                     <div class="card-body">
-                        <p class="card-text fw-bold fs-5">LA FIBRA QUE MAS SE ADAPTA A TI.</p>
+                        <p class="card-text fw-bold fs-5">LA FIBRA QUE MAS SE ADAPTA A TI. Oferta de internet</p>
                         <p class="ms-5" style="color: black;  text-align: left; margin-bottom: -30px ; font-weight: bold; font-size: 12px ">PROXIMAMENTE:</p>
                         <h1 class="card-title">1 GIGA</h1>
                         
