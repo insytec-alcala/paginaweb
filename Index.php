@@ -11,7 +11,7 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-dark text-white text-center py-5" style="background-image: url('./img/fibraole/prueba.jpeg'); background-size: cover;">
+    <header class="bg-dark text-white text-center py-5" style="background-image: url('./img/fibraole/alcala_letras.jpg'); background-size: cover;">
         
     </header>
 
