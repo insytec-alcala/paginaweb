@@ -15,16 +15,16 @@
         
     </header>
 
-    <section class="container my-5">
-        <div class="row text-center">
+    <section class="container my-5 ">
+        <div class="row text-center " id="tarjetas">
             <div class="col-md-4 mb-4">
-                <div class="card card-principal shadow-sm border-0">
+                <div class="card card-principal  border-0">
                     <div class="card-body">
                         <p class="card-text fw-bold fs-5">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO</p>
                         <p class="ms-5" style="color: black; text-align: left; margin-bottom: -30px ; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
                         <h1 class="card-title">1 GIGA</h1>
                         
-                        <a href="#" class="btn btn-primary sabermas">Saber mas</a>
+                        <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
                     </div>
                 </div>
                 
@@ -37,7 +37,7 @@
                         <p class="ms-5" style="color: black;  text-align: left; margin-bottom: -30px ; font-weight: bold; font-size: 12px ">POR SOLO:</p>
                         <h3 class="card-title text-start zapi">7,99€</h3>
                         
-                        <a href="#" class="btn btn-primary sabermas" sty>Saber mas</a>
+                        <a href="#" class="btn btn-primary mx-auto sabermas" sty>Saber más</a>
                     </div>
                 </div>
             </div>
@@ -46,11 +46,11 @@
             <div class="col-md-4 mb-4">
                 <div class="card card-principal shadow-sm border-0">
                     <div class="card-body">
-                        <p class="card-text fw-bold fs-5">LA FIBRA QUE MAS SE ADAPTA A TI.</p>
+                        <p class="card-text fw-bold fs-5">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO DE INTERNET</p>
                         <p class="ms-5" style="color: black;  text-align: left; margin-bottom: -30px ; font-weight: bold; font-size: 12px ">PROXIMAMENTE:</p>
                         <h1 class="card-title">1 GIGA</h1>
                         
-                        <a href="#" class="btn btn-primary sabermas" sty>Saber mas</a>
+                        <a href="#" class="btn btn-primary mx-auto sabermas" sty>Saber más</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
 
     <section class="container my-5">
         <div class="row text-center">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 ">
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="card-title">Fibra de 20MB</h5>

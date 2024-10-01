@@ -24,6 +24,7 @@ header h1 {
     background-color: #4b79a1;
     border: none;
     transition: background-color 0.4s ease;
+    border-radius: 25px;
 }
 
 .btn-primary:hover {
@@ -48,6 +49,7 @@ header h1 {
     color: white;
     border-radius: 10px;
     align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
     
 }
 
@@ -80,4 +82,8 @@ header h1 {
     font-weight: bold;
     border: none;
     width: 50%;
+}
+
+#tarjetas{
+    margin-top: -10%;
 }
