@@ -24,7 +24,7 @@
                         <p class="ms-5" style="color: black; text-align: left; margin-bottom: -30px ; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
                         <h1 class="card-title">1 GIGA</h1>
                         
-                        <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
+                        <a href="#" class="btn btn-primary mx-auto sabermas">Saber mas</a>
                     </div>
                 </div>
                 
