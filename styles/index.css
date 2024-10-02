@@ -83,6 +83,9 @@ header h1 {
     border: none;
     width: 50%;
 }
+
+
+
 @media (min-width: 720px) {
     .custom-margin {
         margin-top: -10%;
@@ -90,10 +93,15 @@ header h1 {
 }
 
 @media (max-width: 720px) {
+    /*Equivalente a la pantalla de un móvil girada */
     header {
         background-size: contain; /* Ajusta la imagen al área visible sin recortarla */
         background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
+    .offcanvas-body .nav-item {
+        border-bottom: 1px solid #ddd; /* Línea separadora */
+      }
+          
 }
 /*todavia no funciona, veré como subir las tarjetas */
 
