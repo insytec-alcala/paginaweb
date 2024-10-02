@@ -83,9 +83,16 @@ header h1 {
     border: none;
     width: 50%;
 }
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     .custom-margin {
         margin-top: -10%;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        background-size: contain; /* Ajusta la imagen al área visible sin recortarla */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
     }
 }
 /*todavia no funciona, veré como subir las tarjetas */

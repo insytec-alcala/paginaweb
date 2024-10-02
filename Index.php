@@ -11,8 +11,8 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-dark text-white text-center py-5" style="background-image: url('./img/fibraole/alcala_letras.jpg'); background-size: cover;">
-        
+    <header class="bg-white text-white text-center py-5" style="background-image: url('./img/fibraole/alcala_letras.jpg'); background-size: contain;">
+        <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 
     <section class="container my-5 mt-5 mt-md-0 ">
