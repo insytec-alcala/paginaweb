@@ -7,7 +7,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-lg-center w-100" id="navbarNav">
+                <!-- w-100 se asegura que el menú ocupe todo el ancho disponible -->
             <ul class="navbar-nav ms-lg-auto text-end w-100">
+                <!-- ms-lg-auto para centrar el menú en pantallas grandes, text-end para que las opciones se centren a la derecha -->
                 <li class="nav-item px-4">
                     <a class="nav-link fw-bold" href="Fibra.php">Fibra</a>
                 </li>
