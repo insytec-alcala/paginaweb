@@ -37,6 +37,18 @@ header h1 {
     color: white;
 }
 
+.btn-warning{
+    border: none;
+    transition: background-color 0.4s ease;
+    border-radius: 25px;
+    margin-top: auto;/*Asegura que se vaya al fondo */
+}
+
+.btn-warning:hover{
+    background-color: #050338;
+    color: white;
+}
+
 .card {
     border-radius: 10px;
     
@@ -56,6 +68,13 @@ header h1 {
     
 }
 
+.card-secundaria {
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
 .card-body {
     padding:25px 25px; /* Ajustar padding interno */
     display: flex;
@@ -70,6 +89,10 @@ header h1 {
      
 }
 
+.card .card-header {
+    border-bottom: none; /* Evita la aparición de un borde inferior en el card header */
+}
+
 .custom-header {
     position: relative;
     text-align: center;
@@ -77,7 +100,8 @@ header h1 {
     padding: 0 15px; /* Espacio alrededor del texto */
     font-size: 18px; 
     font-weight: bold;
-    color: #7070ff; /* Color del texto */
+    color: #5961ED; /* Color del texto */
+    
 }
 
 .custom-header::before {
@@ -86,7 +110,7 @@ header h1 {
     top: 50%;
     left: 0; /* para cuadrar la línea */
     width: 100%;
-    border-top: 2px solid #7070ff; /* Color de la línea */
+    border-top: 2px solid #5961ED; /* Color de la línea */
     z-index: 0; /* Coloca la línea detrás del texto */
     transform: translateY(-50%); /* Asegura que la línea esté centrada verticalmente */
 }
@@ -96,6 +120,11 @@ header h1 {
     padding: 0 10px;
     position: relative;
     z-index: 1; /* Coloca el texto por encima de la línea */
+}
+
+.fila2{
+    padding-left: 2rem; /* Ajusta el valor para reducir el espacio entre columnas */
+    padding-right: 2rem; /* Ajusta el valor para reducir el espacio entre columnas */
 }
 
 .zapi{
@@ -115,7 +144,12 @@ header h1 {
     width: 50%;
 }
 
-
+.discontinua{
+    border: none; 
+    border-top: 3px dashed #000; /*Grosor de la línea */
+    margin-left: 5%; 
+    margin-right: 5%;
+}
 
 @media (max-width: 768px) {
     /*Equivalente a la pantalla de un móvil girada */
