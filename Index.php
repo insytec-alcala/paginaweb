@@ -11,7 +11,7 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-white text-white text-center py-5" style="background-image: url('./img/fibraole/alcala_letras.jpg'); background-size: contain;">
+    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 
@@ -61,12 +61,20 @@
     <section class="container my-5">
         <div class="row text-center">
             <div class="col-md-6 mb-4 ">
-                <div class="card shadow-sm border-0">
+                <div class="card text-center shadow-sm border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 300MB</span>
+                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Fibra de 20MB</h5>
-                        <p class="card-text">10,90€/mes</p>
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    <h5 class="card-title fs-1 fw-bold">10,90€</h5>
+                        <p class="card-text">al mes</p>
+                        <p class="card-text">
+                            primeros 6 meses, despues 17,90€ <br>
+                            +Alta Gratis (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
                     </div>
+
                 </div>
             </div>
             
