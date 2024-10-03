@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light py-5">
-  <div class="container d-flex justify-content-between">
+  <div class="container-fluid">
     <!-- Centrado del logo con ms-auto -->
-    <a class="navbar-brand" href="#">FibraOlé</a>
+    <a class="navbar-brand ms-5" href="#">FibraOlé</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,17 +13,17 @@
       </div>
       <div class="offcanvas-body">
         <!-- Menú de navegación -->
-        <ul class="navbar-nav ms-lg-auto w-100">
-          <li class="nav-item px-4">
+        <ul class="navbar-nav mx-auto  justify-content-between">
+          <li class="nav-item px-5 mx-2">
             <a class="nav-link fw-bold" href="Fibra.php">Fibra</a>
           </li>
-          <li class="nav-item px-4">
+          <li class="nav-item px-5 mx-2">
             <a class="nav-link fw-bold" href="packahorro.php">Packs Ahorro</a>
           </li>
-          <li class="nav-item px-4">
+          <li class="nav-item px-5 mx-2">
             <a class="nav-link fw-bold" href="telefoniatv.php">Telefonía+TV</a>
           </li>
-          <li class="nav-item px-4">
+          <li class="nav-item px-5 mx-2">
             <a class="nav-link fw-bold" href="serviciotecnico.php">Servicio Técnico</a>
           </li>
         </ul>

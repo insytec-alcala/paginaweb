@@ -13,12 +13,15 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    
 }
 
 header h1 {
     font-size: 4rem;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
+
+
 
 .btn-primary{
     background-color: #4b79a1;
@@ -31,6 +34,18 @@ header h1 {
     
     background-color: #050338;
    
+    color: white;
+}
+
+.btn-warning{
+    border: none;
+    transition: background-color 0.4s ease;
+    border-radius: 25px;
+    margin-top: auto;/*Asegura que se vaya al fondo */
+}
+
+.btn-warning:hover{
+    background-color: #050338;
     color: white;
 }
 
@@ -53,6 +68,13 @@ header h1 {
     
 }
 
+.card-secundaria {
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
 .card-body {
     padding:25px 25px; /* Ajustar padding interno */
     display: flex;
@@ -65,6 +87,44 @@ header h1 {
     font-size: 4.8rem; /* Tamaño grande del texto "1 GIGA" */
     font-weight: bold;
      
+}
+
+.card .card-header {
+    border-bottom: none; /* Evita la aparición de un borde inferior en el card header */
+}
+
+.custom-header {
+    position: relative;
+    text-align: center;
+    background-color: white; /* Fondo blanco del texto */
+    padding: 0 15px; /* Espacio alrededor del texto */
+    font-size: 18px; 
+    font-weight: bold;
+    color: #5961ED; /* Color del texto */
+    
+}
+
+.custom-header::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0; /* para cuadrar la línea */
+    width: 100%;
+    border-top: 2px solid #5961ED; /* Color de la línea */
+    z-index: 0; /* Coloca la línea detrás del texto */
+    transform: translateY(-50%); /* Asegura que la línea esté centrada verticalmente */
+}
+
+.custom-header span {
+    background-color: white; /* Fondo blanco detrás del texto */
+    padding: 0 10px;
+    position: relative;
+    z-index: 1; /* Coloca el texto por encima de la línea */
+}
+
+.fila2{
+    padding-left: 2rem; /* Ajusta el valor para reducir el espacio entre columnas */
+    padding-right: 2rem; /* Ajusta el valor para reducir el espacio entre columnas */
 }
 
 .zapi{
@@ -84,42 +144,36 @@ header h1 {
     width: 50%;
 }
 
-
-
-@media (min-width: 720px) {
-    .custom-margin {
-        margin-top: -10%;
-    }
+.discontinua{
+    border: none; 
+    border-top: 3px dashed #000; /*Grosor de la línea */
+    margin-left: 5%; 
+    margin-right: 5%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     /*Equivalente a la pantalla de un móvil girada */
     header {
-        background-size: contain; /* Ajusta la imagen al área visible sin recortarla */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-    }
+        padding: 2rem 0; /* Reducir padding en pantallas pequeñas */
+        height: 50vh; /* Ajustar altura para eliminar espacios en blanco */
+        width: auto;
+      }
     .offcanvas-body .nav-item {
-        border-bottom: 1px solid #ddd; /* Línea separadora */
+        border-bottom: 1px solid #ddd; /* Línea separadora para el offcanvas */
+      }
+      .header-background {
+        height: auto; /* Ajusta la altura automáticamente para pantallas móviles */
+        
       }
           
 }
-
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     /*Equivalente a la pantalla de un móvil girada */
     header {
-        background-size: cover; /* Ajusta la imagen al área visible sin recortarla */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-    }
-    .offcanvas-body .nav-item {
-        border-bottom: 1px solid #ddd; /* Línea separadora */
+        
+        height: 30vh; /* Ajustar altura para eliminar espacios en blanco */
       }
+   
           
 }
 
-/*todavia no funciona, veré como subir las tarjetas */
-
-/*
-#tarjetas{
-    margin-top: -10%;
-}
-    */

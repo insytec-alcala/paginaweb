@@ -11,7 +11,7 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-white text-white text-center py-5" style="background-image: url('./img/fibraole/alcala_letras.jpg'); background-size: contain;">
+    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 
@@ -54,26 +54,137 @@
                     </div>
                 </div>
             </div>
-           
         </div>
     </section>
+
+    <p class="mb-3">
+        <hr class="discontinua">
+    </p>
+
+    <p class="fs-3 text-center fw-bolder">OPERADOR DE FIBRA Y MÓVIL EN ALCALÁ LA REAL Y COMARCA</p>
+    <p class="fs-3 text-center fw-bolder">DISEÑAMOS TARIFAS PENSADAS PARA TI</p>
 
     <section class="container my-5">
         <div class="row text-center">
-            <div class="col-md-6 mb-4 ">
-                <div class="card shadow-sm border-0">
+            <div class="col-md-6 mb-4 fila2">
+                <div class="card card-secundaria text-center border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 300MB</span>
+                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Fibra de 20MB</h5>
-                        <p class="card-text">10,90€/mes</p>
-                        <a href="#" class="btn btn-primary">Ver detalles</a>
+                    <p class="card-text">al mes</p>
+                    <h5 class="card-title fs-1 fw-bold">10,90€</h5>
+                        <p class="card-text">
+                            primeros 6 meses, despues 17,90€ <br>
+                            +Alta Gratis (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
                     </div>
+
                 </div>
             </div>
             
+            <div class="col-md-6 mb-4 fila2">
+                <div class="card card-secundaria text-center  border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 600MB</span>
+                     </div>
+                    <div class="card-body">
+                    <p class="card-text">al mes</p>
+                    <h5 class="card-title fs-1 fw-bold">10,90€</h5>
+                        <p class="card-text">
+                            primeros 6 meses, despues 19,90€ <br>
+                            +Alta Gratis (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <p class="mb-3">
+        <hr class="discontinua">
+    </p>
+
+    <p class="fs-3 text-center fw-bolder">NUESTROS PACKS AHORRO <span class="text-warning">ESTRELLA</span></p>
+
+    <section class="container my-5 mt-5 mt-md-0">
+        <div class="row text-center ">
+            <div class="col-md-4 mb-4 ">
+                <div class="card card-secundaria text-center border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 300MB</span>
+                     </div>
+                    <div class="card-body">
+                    <p class="card-text mb-2">Móvil 12GB + <br>
+                        llamadas ilimitadas</p>
+                    <h5 class="card-title fs-1 fw-bold mb-2">17,90€</h5>
+                        <p class="card-text mb-2">
+                            <span class="fw-bold ">primeros 6 meses, despues 24,90€ <br>
+                            +Alta Gratis</span> (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
+                        <br>
+                        <p class="card-text">
+                            *Consulte disponibilidad geográfica
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 ">
+                <div class="card card-secundaria text-center border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 600MB</span>
+                     </div>
+                    <div class="card-body">
+                    <p class="card-text mb-2">Llamadas ilimitadas<br>
+                        + 25GB</p>
+                    <h5 class="card-title fs-1 fw-bold mb-2">19,90€</h5>
+                        <p class="card-text mb-2">
+                            <span class="fw-bold ">primeros 6 meses, despues 29,90€ <br>
+                            +Alta Gratis</span> (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
+                        <br>
+                        <p class="card-text">
+                            *Consulte disponibilidad geográfica
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 ">
+                <div class="card card-secundaria text-center border-0">
+                    <div class="card-header custom-header">
+                         <span>FIBRA DE 600MB</span>
+                     </div>
+                    <div class="card-body">
+                    <p class="card-text ">3 Líneas llamadas<br>
+                        ilimitadas* con 60 GB<br>
+                        para compartir</p>
+                    <h5 class="card-title fs-1 fw-bold mb-2">30,90€</h5>
+                        <p class="card-text mb-2">
+                            <span class="fw-bold ">primeros 6 meses, despues 39,90€ <br>
+                            +Alta Gratis</span> (iva incluido)
+                        </p>
+                        <a href="#" class="btn btn-warning fw-bold">¡LO QUIERO!</a>
+                        <br>
+                        <p class="card-text">
+                            *Consulte disponibilidad geográfica
+                            <p>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
 
-     
    <?php include 'footer.php'  ?>
 
     
