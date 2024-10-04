@@ -28,6 +28,7 @@ header h1 {
     border: none;
     transition: background-color 0.4s ease;
     border-radius: 25px;
+    width: 100%;
 }
 
 .btn-primary:hover {
@@ -42,6 +43,7 @@ header h1 {
     transition: background-color 0.4s ease;
     border-radius: 25px;
     margin-top: auto;/*Asegura que se vaya al fondo */
+    width: 100%;
 }
 
 .btn-warning:hover{
@@ -59,34 +61,40 @@ header h1 {
 }
 
 .card-principal {
-    height: 300px;
+    height: auto;
     background-color: #5961ED;
     color: white;
     border-radius: 10px;
     align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    aspect-ratio: 1 / 1;
     
 }
 
 .card-secundaria {
-    height: 350px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
-    
+    display: flex;
+    flex-direction: column;
+}
+.cuadrada{
+    aspect-ratio: 1 / 1;
+    max-width: 300px;
 }
 
 .card-body {
-    padding:25px 25px; /* Ajustar padding interno */
+    padding:2rem; /* Ajustar padding interno */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Para alinear el contenido */
-    height: 80%;
+    height: 100%;
 }
 
 .card-title  {
-    font-size: 4.8rem; /* Tamaño grande del texto "1 GIGA" */
+    font-size: 3.5rem; /* Tamaño grande del texto "1 GIGA" */
     font-weight: bold;
-     
+     text-align: center;
 }
 
 .card .card-header {
@@ -129,6 +137,7 @@ header h1 {
 
 .zapi{
     font-size: 2.8rem;
+    text-align: center;
 }
 
 .card-text {
@@ -141,8 +150,16 @@ header h1 {
     color: #4e5bb5; /* Texto del color principal */
     font-weight: bold;
     border: none;
-    width: 50%;
+    width: 80%;
+    padding: 0.5rem;
 }
+.loquiero{
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+}
+
 
 .discontinua{
     border: none; 
@@ -150,6 +167,56 @@ header h1 {
     margin-left: 5%; 
     margin-right: 5%;
 }
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card-principal {
+        aspect-ratio: auto; /* Mantiene la proporción cuadrada */
+        width: 90%; /* Ajusta el ancho para que quepa más contenido */
+        max-width: 300px; /* Limitar el ancho máximo para no estirarse demasiado */
+        height: auto; /* Mantiene la altura automática */
+    }
+
+    /* Reducir el tamaño del texto específico de los títulos de las tarjetas */
+    .card-principal .card-text.fw-bold.fs-5 {
+        font-size: 0.6rem; 
+    }
+
+  .card-principal p[style*="color: black"] {
+        font-size: 0.6rem; /* Tamaño reducido para estos párrafos */
+    }
+
+    /* Ajuste del padding y contenido interno */
+    .card-body {
+        padding: 0.8rem; /* Reduce más el padding interno */
+    }
+
+    .card-title {
+        font-size: 1.1rem; /* Reduce el tamaño del título general */
+    }
+
+    .zapi {
+        font-size: 1.3rem; /* Ajusta aún más el tamaño del texto de "zapi" */
+    }
+
+    .card-text {
+        font-size: 0.8rem; /* Reduce el tamaño de los textos secundarios */
+    }
+
+    .sabermas {
+        font-size: 0.7rem; /* Reduce más el tamaño del botón */
+        padding: 0.3rem;   /* Reduce el padding del botón */
+        width: 85%;        /* Reduce un poco el ancho del botón */
+    }
+}
+@media (min-width: 768px){
+    .card-principal {
+        max-width: 300px; /* Tamaño de las tarjetas (evita que se vean demasiado grandes) */
+       
+    }
+}
+
 
 @media (max-width: 768px) {
     /*Equivalente a la pantalla de un móvil girada */
@@ -165,6 +232,22 @@ header h1 {
         height: auto; /* Ajusta la altura automáticamente para pantallas móviles */
         
       }
+
+      .card-principal {
+        aspect-ratio: auto; /* Elimina la proporción cuando las tarjetas están en una sola columna */
+        height: auto; /* Deja que el contenido controle la altura */
+    }
+      .card-title {
+        font-size: 2rem; /* Disminuir el tamaño del título en pantallas pequeñas */
+    }
+
+    .zapi {
+        font-size: 1.8rem;
+    }
+    .sabermas {
+        width: 100%; /* Asegura que el botón ocupe todo el ancho en pantallas pequeñas */
+    }
+    
           
 }
 @media (max-width: 576px) {
@@ -173,7 +256,6 @@ header h1 {
         
         height: 30vh; /* Ajustar altura para eliminar espacios en blanco */
       }
-   
-          
+           
 }
 
