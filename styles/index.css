@@ -62,7 +62,7 @@ header h1 {
 
 .card-principal {
     height: auto;
-    background-color: #5961ED;
+    background-color: #0d0f3b;
     color: white;
     border-radius: 10px;
     align-items: center;
@@ -108,7 +108,7 @@ header h1 {
     padding: 0 15px; /* Espacio alrededor del texto */
     font-size: 18px; 
     font-weight: bold;
-    color: #5961ED; /* Color del texto */
+    color: orange; /* Color del texto */
     
 }
 
@@ -118,7 +118,7 @@ header h1 {
     top: 50%;
     left: 0; /* para cuadrar la línea */
     width: 100%;
-    border-top: 2px solid #5961ED; /* Color de la línea */
+    border-top: 2px solid orange; /* Color de la línea */
     z-index: 0; /* Coloca la línea detrás del texto */
     transform: translateY(-50%); /* Asegura que la línea esté centrada verticalmente */
 }
@@ -144,7 +144,7 @@ header h1 {
     margin-bottom: 0;
 }
 
-
+/*botón tarjetas card-principal */
 .sabermas{
     background-color: white; /* Fondo blanco para los botones */
     color: #4e5bb5; /* Texto del color principal */
@@ -153,6 +153,7 @@ header h1 {
     width: 80%;
     padding: 0.5rem;
 }
+/*botón tarjetas card-secundaria */
 .loquiero{
     font-weight: bold;
     border: none;
@@ -160,7 +161,7 @@ header h1 {
     padding: 0.5rem;
 }
 
-
+/*Línea discontinua que separa las tarjetas */
 .discontinua{
     border: none; 
     border-top: 3px dashed #000; /*Grosor de la línea */
@@ -170,12 +171,53 @@ header h1 {
 
 
 
+@media (min-width: 992px) {
+    .navbar-toggler {
+      display: none; /* Oculta el botón hamburguesa en pantallas grandes */
+    }
+      /*llama-derecha se muestra y llama-izquierda se oculta */
+    .llama-derecha {
+      display: inline-block; /* Muestra la frase en pantallas grandes */
+      font-size: 1.2rem;
+      margin-right: 20px; /* Alinea la frase completamente a la derecha */
+      
+    }
+    .llama-izquierda {
+        display: none; 
+        font-size: 1.2rem;
+        margin-right: 20px; /* Alinea la frase completamente a la derecha */
+        
+      }
+  }
+  
+  
+  @media (max-width: 991px) {
+    .navbar-toggler {
+      display: block; /* Muestra el botón hamburguesa */
+      margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
+    }
+
+    /*llama-derecha se oculta y llama-izquierda se muestra */
+    .llama-derecha {
+        display: none; 
+        font-size: 1.2rem;
+        margin-right: 20px; 
+        
+      }
+      .llama-izquierda {
+          display: inline-block; 
+          font-size: 1.2rem;
+          margin-right: 20px; 
+          
+        }
+  }
+
 @media (min-width: 768px) and (max-width: 992px) {
     .card-principal {
-        aspect-ratio: auto; /* Mantiene la proporción cuadrada */
-        width: 90%; /* Ajusta el ancho para que quepa más contenido */
-        max-width: 300px; /* Limitar el ancho máximo para no estirarse demasiado */
-        height: auto; /* Mantiene la altura automática */
+        aspect-ratio: auto; 
+        width: 90%; 
+        max-width: 300px; 
+        height: auto; 
     }
 
     /* Reducir el tamaño del texto específico de los títulos de las tarjetas */
@@ -187,42 +229,41 @@ header h1 {
         font-size: 0.6rem; /* Tamaño reducido para estos párrafos */
     }
 
-    /* Ajuste del padding y contenido interno */
+    /* Ajuste del padding y tamaño de las tarjetas card-principal */
     .card-body {
-        padding: 0.8rem; /* Reduce más el padding interno */
+        padding: 0.8rem; 
     }
 
     .card-title {
-        font-size: 1.1rem; /* Reduce el tamaño del título general */
+        font-size: 1.1rem; 
     }
 
     .zapi {
-        font-size: 1.3rem; /* Ajusta aún más el tamaño del texto de "zapi" */
+        font-size: 1.3rem; 
     }
 
     .card-text {
-        font-size: 0.8rem; /* Reduce el tamaño de los textos secundarios */
+        font-size: 0.8rem; 
     }
 
     .sabermas {
-        font-size: 0.7rem; /* Reduce más el tamaño del botón */
-        padding: 0.3rem;   /* Reduce el padding del botón */
-        width: 85%;        /* Reduce un poco el ancho del botón */
+        font-size: 0.7rem; 
+        padding: 0.3rem;   
+        width: 85%;        
     }
 }
 @media (min-width: 768px){
     .card-principal {
-        max-width: 300px; /* Tamaño de las tarjetas (evita que se vean demasiado grandes) */
+        max-width: 300px; /* Limite de anchura de mágenes para que no se vean demasiado grandes */
        
     }
 }
 
 
 @media (max-width: 768px) {
-    /*Equivalente a la pantalla de un móvil girada */
     header {
-        padding: 2rem 0; /* Reducir padding en pantallas pequeñas */
-        height: 50vh; /* Ajustar altura para eliminar espacios en blanco */
+        padding: 2rem 0; 
+        height: 50vh; /* Ajustar altura de la imagen para eliminar espacios en blanco */
         width: auto;
       }
     .offcanvas-body .nav-item {
@@ -235,7 +276,7 @@ header h1 {
 
       .card-principal {
         aspect-ratio: auto; /* Elimina la proporción cuando las tarjetas están en una sola columna */
-        height: auto; /* Deja que el contenido controle la altura */
+        height: auto; 
     }
       .card-title {
         font-size: 2rem; /* Disminuir el tamaño del título en pantallas pequeñas */
@@ -245,17 +286,19 @@ header h1 {
         font-size: 1.8rem;
     }
     .sabermas {
-        width: 100%; /* Asegura que el botón ocupe todo el ancho en pantallas pequeñas */
+        width: 100%; /* el botón ocupa todo el ancho en pantallas pequeñas */
     }
     
           
 }
-@media (max-width: 576px) {
-    /*Equivalente a la pantalla de un móvil girada */
+@media (max-width: 524px) {
+   
     header {
         
-        height: 30vh; /* Ajustar altura para eliminar espacios en blanco */
+        height: 30vh; /* Ajustar altura de la imagen para eliminar espacios en blanco */
       }
+
+  
            
 }
 

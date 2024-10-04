@@ -21,7 +21,7 @@
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO</p>
-                    <p class="text-center" style="color: black; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
+                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
                     <h1 class="card-title mx-auto">1 GIGA</h1>
                     <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
                 </div>
@@ -32,7 +32,7 @@
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
-                    <p class="text-center" style="color: black; font-weight: bold; font-size: 12px">POR SOLO:</p>
+                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">POR SOLO:</p>
                     <h3 class="card-title zapi mx-auto">7,99€</h3>
                     <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
                 </div>
@@ -43,7 +43,7 @@
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. Oferta de internet</p>
-                    <p class="text-center" style="color: black; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
+                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
                     <h1 class="card-title mx-auto">1 GIGA</h1>
                     <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
                 </div>
@@ -64,8 +64,8 @@
         <div class="row text-center">
             <div class="col-md-6 mb-4 fila2">
                 <div class="card card-secundaria  text-center border-0">
-                    <div class="card-header custom-header">
-                         <span>FIBRA DE 300MB</span>
+                    <div class="card-header custom-header" >
+                         <span style="color: orange;">FIBRA DE 300MB</span>
                      </div>
                     <div class="card-body">
                     <p class="card-text">al mes</p>
@@ -83,7 +83,7 @@
             <div class="col-md-6 mb-4 fila2">
                 <div class="card card-secundaria text-center  border-0">
                     <div class="card-header custom-header">
-                         <span>FIBRA DE 600MB</span>
+                         <span style="color: orange;">FIBRA DE 600MB</span>
                      </div>
                     <div class="card-body">
                     <p class="card-text">al mes</p>
@@ -112,7 +112,7 @@
         <div class="col-md-4 mb-4 d-flex justify-content-center">
         <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
                     <div class="card-header custom-header">
-                         <span>FIBRA DE 300MB</span>
+                         <span style="color: #5961ED">FIBRA DE 300MB</span>
                      </div>
                      <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text mb-2">Móvil 12GB + <br>
@@ -135,7 +135,7 @@
             <div class="col-md-4 mb-4 d-flex justify-content-center">
             <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
                     <div class="card-header custom-header">
-                         <span>FIBRA DE 600MB</span>
+                         <span style="color: #5961ED">FIBRA DE 600MB</span>
                      </div>
                      <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text mb-2">Llamadas ilimitadas<br>
@@ -158,7 +158,7 @@
             <div class="col-md-4 mb-4 d-flex justify-content-center">
             <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
                     <div class="card-header custom-header">
-                         <span>FIBRA DE 600MB</span>
+                         <span style="color: #5961ED">FIBRA DE 600MB</span>
                      </div>
                      <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text mb-2">3 Líneas llamadas<br>
