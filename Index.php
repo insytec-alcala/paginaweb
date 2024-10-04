@@ -11,7 +11,7 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
+    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_con_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 
