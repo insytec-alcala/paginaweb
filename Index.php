@@ -14,10 +14,11 @@
     <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_con_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
-
+<!--Primera fila de tarjetas -->
     <section class="container my-5 mt-5 mt-md-0 ">
-    <div class="row text-center " id="tarjetas">
-        <div class="col-md-4 mb-4">
+    <div class="row justify-content-center text-center px-3" id="tarjetas">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <!--Añadir d-flex y justify-content-center hace que la tarjeta se centre dentro del div -->
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO</p>
@@ -28,7 +29,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
@@ -39,7 +40,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
             <div class="card card-principal border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. Oferta de internet</p>
@@ -61,8 +62,8 @@
 
 <!--Segunda fila de tarjetas -->
     <section class="container my-5">
-        <div class="row text-center">
-            <div class="col-md-6 mb-4 fila2">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-6 col-lg-5 mb-4 fila2">
                 <div class="card card-secundaria  text-center border-0">
                     <div class="card-header custom-header" >
                          <span style="color: orange;">FIBRA DE 300MB</span>
@@ -80,7 +81,7 @@
                 </div>
             </div>
             
-            <div class="col-md-6 mb-4 fila2">
+            <div class="col-md-6 col-lg-5 mb-4 fila2">
                 <div class="card card-secundaria text-center  border-0">
                     <div class="card-header custom-header">
                          <span style="color: orange;">FIBRA DE 600MB</span>
@@ -107,7 +108,7 @@
 
     <p class="fs-3 text-center fw-bolder">NUESTROS PACKS AHORRO <span class="text-warning">ESTRELLA</span></p>
 <!-- Tercera línea de tarjetas-->
-    <section class="container my-5 mt-5 mt-md-0">
+    <section class="container my-5 mt-5 mt-2">
         <div class="row text-center ">
         <div class="col-md-4 mb-4 d-flex justify-content-center">
         <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
@@ -181,7 +182,119 @@
 
         </div>
     </section>
+<!-- Segunda imagen-->
+    <header class="bg-white text-white text-center mt-2 mb-4" style="background-image: url('./img/fibraole/alcala.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
+        <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
+    </header>
+<!--Cuarta fila de tarjetas-->
 
+<section class="container my-5 mt-5 ">
+    <div class="row text-center justify-content-center">
+        <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center mb-4">
+                <img src="./img/fibraole/icono_movil01.png" class="logo" alt="Icono" class="me-2">
+                <span class="text-uppercase fw-bold">TARIFAS DE MÓVIL</span>
+            </div>
+            <!-- Tarjeta 1 -->
+            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+                <div class="card-header sinlinea">
+                    <span style="color: #5961ED">COMPARTIDA FAMILIAR 1</span>
+                </div>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <p class="card-text fs-5 mb-2">
+                        Hasta 3 líneas móviles <br>
+                        con llamadas ilimitadas <br>
+                        +60 GB para compartir* <br>
+                        <small class="text-muted">Sin permanencia</small>
+                    </p>
+                    <h5 class="card-title fs-5 fw-bold mx-auto">Por tan solo:<br></h5>
+                    <h5 class="card-title fs-1 fw-bold mb-2">20,90€<br></h5>
+                    <p class="card-text mb-2">
+                        <span><span class="fw-bold">al mes</span> (IVA incluido)</span>
+                    </p>
+                    <a href="#" class="btn btn-warning fw-bold mt-auto loquiero">¡LO QUIERO!</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Tarjeta 2 -->
+        <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
+        <div class="d-flex align-items-center mb-4">
+                <img src="./img/fibraole/icono_fijo.png" class="logo" alt="Icono" class="me-2">
+                <span class="text-uppercase fw-bold">TARIFAS DE FIJO</span>
+            </div>
+            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+                <div class="card-header sinlinea">
+                    <span style="color: #5961ED">TARIFA FIJO</span>
+                </div>
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <p class="card-text fs-5 mb-2">
+                        Fijo sobre una conexión <br>
+                        1000 min a fijo + <br>
+                        100 min a móvil <br>
+                        <small class="text-muted">Sin permanencia</small>
+                    </p>
+                    <h5 class="card-title fs-5 fw-bold mx-auto">Por tan solo:<br></h5>
+                    <h5 class="card-title fs-1 fw-bold mb-2">7,90€<br></h5>
+                    <p class="card-text mb-2">
+                        <span><span class="fw-bold">al mes</span> (IVA incluido)</span>
+                    </p>
+                    <a href="#" class="btn btn-warning fw-bold mt-auto loquiero">¡LO QUIERO!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center mt-3">
+        <div class="col-12">
+            <p class="fw-bold fs-6">*Línea con triple cobertura (Yoigo, Orange y Movistar)</p>
+        </div>
+    </div>
+</section>
+<!--Línea discontinua -->
+<p class="mb-3">
+        <hr class="discontinua">
+    </p>
+<!--Novedades -->
+<section class="container my-5 mt-5 mt-2">
+<div class="row text-center mt-3">
+        <div class="col-12">
+            <p class="fw-bold fs-4">ÚLTIMAS NOVEDADES</p>
+        </div>
+        <div class="row text-center ">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+        <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+                <!--Imagen -->
+                <!--Párrafo -->
+                <!--Ver más -->
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+                <!--Imagen -->
+                <!--Párrafo -->
+                <!--Ver más -->
+
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+                <!--Imagen -->
+                <!--Párrafo -->
+                <!--Ver más -->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!--Línea discontinua -->
+<p class="mb-3">
+        <hr class="discontinua">
+    </p>
+<!-- footer-->
    <?php include 'footer.php'  ?>
 
     
