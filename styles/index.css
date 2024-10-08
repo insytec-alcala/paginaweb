@@ -170,6 +170,11 @@ header h1 {
     margin-bottom: 0;
 }
 
+.img-tarjeta{
+    height: 300px;
+    aspect-ratio: 1/1;
+}
+
 /*botón tarjetas card-principal */
 .sabermas{
     background-color: white; /* Fondo blanco para los botones */

@@ -255,12 +255,69 @@
 <p class="mb-3">
         <hr class="discontinua">
     </p>
-<!--Novedades -->
-<section class="container my-5 mt-5 mt-2">
-<div class="row text-center mt-3">
+    <section class="container my-5">
+    <div class="row text-center mt-5">
         <div class="col-12">
-            <p class="fw-bold fs-4">ÚLTIMAS NOVEDADES</p>
+            <p class="fw-bold fs-3">ÚLTIMAS NOVEDADES</p>
         </div>
+    </div>
+
+    <div class="row gx-lg-5 text-center">
+        <!-- Primera noticia -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card border-0 bg-transparent">
+                <!-- Imagen destacada -->
+                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
+                    <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;" />
+                </div>
+
+                <!-- Contenido del artículo -->
+                <div class="card-body">
+                    <h5 class=" fw-bold">¿Cuáles son las ventajas de elegir a Insytec como tu operador de telecomunicaciones?</h5>
+                    <p class="card-text">
+                        Cuando se trata de elegir un operador de telecomunicaciones, es importante considerar diversas variables que...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda noticia -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card border-0 bg-transparent">
+                <!-- Imagen destacada -->
+                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
+                    <img src="./img/fibraole/fuensanta_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;" />
+                </div>
+
+                <!-- Contenido del artículo -->
+                <div class="card-body">
+                    <h5 class=" fw-bold">¿Qué es WiMAX y cómo puede mejorar tu conexión a Internet?</h5>
+                    <p class="card-text">
+                        En la actualidad, estar conectado a internet se ha vuelto una necesidad fundamental en nuestra vida cotidiana.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tercera noticia -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card border-0 bg-transparent">
+                <!-- Imagen destacada -->
+                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
+                    <img src="./img/fibraole/fuensanta_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;"/>
+                </div>
+
+                <!-- Contenido del artículo -->
+                <div class="card-body">
+                    <h5 class=" fw-bold">Conectividad sin límites: Descubre las tarifas de móvil ilimitadas de Insytec</h5>
+                    <p class="card-text">
+                        En la era digital en la que vivimos, estar conectados en todo momento se ha convertido en una necesidad. Nuestros...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <div class="row text-center ">
         <div class="col-md-4 mb-4 d-flex justify-content-center">
         <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
