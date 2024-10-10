@@ -195,7 +195,7 @@ header h1 {
     padding: 0.5rem;
 }
 
-img {
+.logo {
     max-width: 34px; 
     max-height: 34px; 
     width: auto; 
@@ -230,6 +230,11 @@ img {
         
       }
       
+      .cuartafila {
+        min-width: 250px; /* Ajusta este valor según lo necesites */
+        max-width: 300px; /* Limitar un tamaño máximo */
+        width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
+    }
   }
   
   
@@ -294,6 +299,12 @@ img {
         font-size: 0.7rem; 
         padding: 0.3rem;   
         width: 85%;        
+    }
+
+    .cuartafila {
+        min-width: 216px; /* Ajusta este valor según lo necesites */
+        
+        width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
     }
 }
 @media (min-width: 768px){

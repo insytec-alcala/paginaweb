@@ -196,7 +196,7 @@
                 <span class="text-uppercase fw-bold">TARIFAS DE MÓVIL</span>
             </div>
             <!-- Tarjeta 1 -->
-            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+            <div class="card card-secundaria cuartafila text-center border-0 h-100 d-flex flex-column">
                 <div class="card-header sinlinea">
                     <span style="color: #5961ED">COMPARTIDA FAMILIAR 1</span>
                 </div>
@@ -225,7 +225,7 @@
                 <span class="text-uppercase fw-bold">TARIFAS DE FIJO</span>
             </div>
     <!-- Tarjeta 2 -->
-            <div class="card card-secundaria text-center border-0 h-100 d-flex flex-column">
+            <div class="card card-secundaria cuartafila text-center border-0 h-100 d-flex flex-column">
                 <div class="card-header sinlinea">
                     <span style="color: #5961ED">TARIFA FIJO</span>
                 </div>
