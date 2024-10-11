@@ -279,6 +279,7 @@
                         Cuando se trata de elegir un operador de telecomunicaciones, es importante considerar diversas variables que...
                     </p>
                 </div>
+                <a href="#" class="text-black mb-auto">Ver más</a>
             </div>
         </div>
 
@@ -297,6 +298,7 @@
                         En la actualidad, estar conectado a internet se ha vuelto una necesidad fundamental en nuestra vida cotidiana.
                     </p>
                 </div>
+                <a href="#" class="text-black mb-auto">Ver más</a>
             </div>
         </div>
 
@@ -314,7 +316,9 @@
                     <p class="card-text">
                         En la era digital en la que vivimos, estar conectados en todo momento se ha convertido en una necesidad. Nuestros...
                     </p>
+                    
                 </div>
+                <a href="#" class="text-black mb-auto">Ver más</a>
             </div>
         </div>
     </div>

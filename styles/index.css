@@ -2,6 +2,7 @@
 body{
     font-family: 'Alte Haas Grotesk', sans-serif;
     color: #333;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -212,6 +213,7 @@ header h1 {
 
 
 
+
 @media (min-width: 992px) {
     .navbar-toggler {
       display: none; /* Oculta el botón hamburguesa en pantallas grandes */
@@ -257,7 +259,14 @@ header h1 {
           margin-right: 20px; 
           
         }
-
+        footer {
+            margin-bottom: 0; /* Asegúrate de que no haya márgenes adicionales */
+            padding-bottom: 0; /* Evita un relleno extra al final */
+        }
+    
+        body {
+            min-height: 100vh; /* Para asegurarse de que la página ocupe todo el viewport */
+        }
 
   }
 
