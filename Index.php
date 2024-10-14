@@ -327,6 +327,9 @@
 <p class="mb-3">
         <hr class="discontinua">
     </p>
+
+    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
+
 <!-- footer-->
    <?php include 'footer.php'  ?>
 
