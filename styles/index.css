@@ -95,7 +95,7 @@ header h1 {
 }
 
 .card-body {
-    padding:2rem; /* Ajustar padding interno */
+    padding:2rem; 
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Para alinear el contenido */
@@ -110,7 +110,7 @@ header h1 {
 }
 
 .card .card-header {
-    border-bottom: none; /* Evita la aparición de un borde inferior en el card header */
+    border-bottom: none; /*Evita la aparición de un borde inferior en el card header */
 }
 
 
@@ -120,11 +120,11 @@ header h1 {
 .custom-header {
     position: relative;
     text-align: center;
-    background-color: white; /* Fondo blanco del texto */
+    background-color: white; 
     padding: 0 15px; /* Espacio alrededor del texto */
     font-size: 18px; 
     font-weight: bold;
-    color: orange; /* Color del texto */
+    color: orange; 
     
 }
 
@@ -161,7 +161,7 @@ header h1 {
 
 .fila2{
     max-width: 350px;
-    padding-left: 2rem; /* Reducir el espacio entre columnas */
+    padding-left: 2rem; 
     padding-right: 2rem; 
 }
 
@@ -213,25 +213,8 @@ header h1 {
 
 
 
-
 @media (min-width: 992px) {
-    .navbar-toggler {
-      display: none; /* Oculta el botón hamburguesa en pantallas grandes */
-    }
-      /*llama-derecha se muestra y llama-izquierda se oculta */
-    .llama-derecha {
-      display: inline-block; /* Muestra la frase en pantallas grandes */
-      font-size: 1.2rem;
-      margin-right: 20px; /* Alinea la frase completamente a la derecha */
-      
-    }
-    .llama-izquierda {
-        display: none; 
-        font-size: 1.2rem;
-        margin-right: 20px; /* Alinea la frase completamente a la derecha */
-        
-      }
-      
+ 
       .cuartafila {
         min-width: 250px; /* Ajusta este valor según lo necesites */
         max-width: 300px; /* Limitar un tamaño máximo */
@@ -241,24 +224,7 @@ header h1 {
   
   
   @media (max-width: 991px) {
-    .navbar-toggler {
-      display: block; /* Muestra el botón hamburguesa */
-      margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
-    }
 
-    /*llama-derecha se oculta y llama-izquierda se muestra */
-    .llama-derecha {
-        display: none; 
-        font-size: 1.2rem;
-        margin-right: 20px; 
-        
-      }
-      .llama-izquierda {
-          display: inline-block; 
-          font-size: 1.2rem;
-          margin-right: 20px; 
-          
-        }
         footer {
             margin-bottom: 0; /* Asegúrate de que no haya márgenes adicionales */
             padding-bottom: 0; /* Evita un relleno extra al final */
@@ -278,16 +244,16 @@ header h1 {
         height: auto; 
     }
 
-    /* Reducir el tamaño del texto específico de los títulos de las tarjetas */
+    /*Reducir el tamaño del texto  del título de las tarjetas */
     .card-principal .card-text.fw-bold.fs-5 {
         font-size: 0.6rem; 
     }
 
   .card-principal p[style*="color: black"] {
-        font-size: 0.6rem; /* Tamaño reducido para estos párrafos */
+        font-size: 0.6rem; /*Párrafos más pequeños */
     }
 
-    /* Ajuste del padding y tamaño de las tarjetas card-principal */
+    
     .card-body {
         padding: 0.8rem; 
     }
@@ -315,8 +281,9 @@ header h1 {
         
         width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
     }
+
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
     .card-principal {
         max-width: 300px; /* Limite de anchura de mágenes para que no se vean demasiado grandes */
        
@@ -324,6 +291,7 @@ header h1 {
     #tarjetas{
         margin-top: -80px;
     }
+
 }
 
 
@@ -333,9 +301,7 @@ header h1 {
         height: 50vh; /* Ajustar altura de la imagen para eliminar espacios en blanco */
         width: auto;
       }
-    .offcanvas-body .nav-item {
-        border-bottom: 1px solid #ddd; /* Línea separadora para el offcanvas */
-      }
+    
       .header-background {
         height: auto; /* Ajusta la altura automáticamente para pantallas móviles */
         
@@ -352,8 +318,9 @@ header h1 {
     .zapi {
         font-size: 1.8rem;
     }
+
+
  
-    
           
 }
 @media (max-width: 524px) {
