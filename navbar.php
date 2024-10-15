@@ -2,9 +2,9 @@
   <div class="container-fluid d-flex align-items-center">
     <!-- Englobando todo en un container se alinea el navbar con el logo y el llama gratis -->
     <div class="d-flex align-items-center flex-grow-1">
-      <a class="navbar-brand ms-5" href="#">
-        <img src="./img/fibraole/logo_cabecera.png" alt="Logo" width="auto" height="40">
-      </a>
+    <a class="navbar-brand ms-5" href="#">
+  <img src="./img/fibraole/logo_cabecera.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
+</a>
       
       <!-- Frase "Llama gratis" visible solo en pantallas pequeñas -->
       <span class="fw-bold me-3 llama-izquierda fs-5 text-warning ms-auto d-lg-none">Llama gratis: 123-456-789</span>
