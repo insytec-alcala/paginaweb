@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles/navbar.css">
 <nav class="navbar navbar-expand-md navbar-light bg-light py-5">
   <div class="container-fluid d-flex align-items-center justify-content-between flex-nowrap">
     <!-- Logo -->
