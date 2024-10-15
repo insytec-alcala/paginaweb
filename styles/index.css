@@ -211,6 +211,13 @@ header h1 {
     margin-right: 5%;
 }
 
+a.text-white{
+    text-decoration: none;
+}
+
+.small-text-footer {
+    font-size: 0.65rem; /* Ajusta el tamaño a tu gusto */
+}
 
 
 
