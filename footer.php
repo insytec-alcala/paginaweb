@@ -58,7 +58,7 @@
         <div class="row mt-4">
             <div class="col text-center">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" class="text-white">Aviso Legal</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Avisos Legales</a></li>
                     <li class="list-inline-item"><a href="#" class="text-white">Política de Privacidad</a></li>
                     <li class="list-inline-item"><a href="#" class="text-white">Política de Cookies</a></li>
                     <li class="list-inline-item"><a href="#" class="text-white">Agencia de Publicidad</a></li>
