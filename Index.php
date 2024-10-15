@@ -101,6 +101,33 @@
 
         </div>
     </section>
+
+    <section class="container my-5">
+    <div class="row justify-content-center text-center px-3">
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5">FACTURAS Y
+                CONSUMO
+            ONLINE </p>
+        </div>
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5">ALTA
+                GRATIS</p>
+        </div>
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5">AMPLIA
+                COBERTURA</p>
+        </div>
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5">INSTALACIÓN Y
+                DESPLAZAMIENTO
+            GRATUITO</p>
+        </div>
+    </div>
+</section>
 <!--Línea discontinua -->
     <p class="mb-3">
         <hr class="discontinua">
@@ -269,8 +296,7 @@
             <div class="card border-0 bg-transparent">
                 <!-- Imagen destacada -->
                 <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                    <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;" />
-                </div>
+                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
 
                 <!-- Contenido del artículo -->
                 <div class="card-body">
@@ -288,8 +314,7 @@
             <div class="card border-0 bg-transparent">
                 <!-- Imagen destacada -->
                 <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                    <img src="./img/fibraole/fuensanta_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;" />
-                </div>
+                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
 
                 <!-- Contenido del artículo -->
                 <div class="card-body">
@@ -307,8 +332,7 @@
             <div class="card border-0 bg-transparent">
                 <!-- Imagen destacada -->
                 <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                    <img src="./img/fibraole/fuensanta_con_letras.jpg" class="img-fluid rounded-2" style="width: 300px; height: 250px; object-fit: cover;"/>
-                </div>
+                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
 
                 <!-- Contenido del artículo -->
                 <div class="card-body">
@@ -327,6 +351,42 @@
 <p class="mb-3">
         <hr class="discontinua">
     </p>
+
+    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
+
+    <section class="container my-5">
+    <div class="row justify-content-center text-center px-3">
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5 mb-0">CASTILLO DE<br>
+             LOCUBÍN</p>
+            <p fs-5>C/Veracruz 32<br>
+            681 671 156</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5 mb-0">ALMEDINILLA</p>
+            <p fs-5>C/Cerrillo 17<br>
+            953 584 344<br>
+            694 498 620</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5 mb-0">ALCALÁ LA REAL</p>
+            <p fs-5>Avda. Europa 2<br>
+            953 584 344<br>
+            694 498 620</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
+            <p class="fw-bold fs-5 mb-0">FUENSANTA DE<br>
+             MARTOS</p>
+            <p fs-5>C/Real 32<br>
+            653 059 797</p>
+        </div>
+    </div>
+</section>
+
 <!-- footer-->
    <?php include 'footer.php'  ?>
 

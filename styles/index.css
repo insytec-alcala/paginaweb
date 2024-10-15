@@ -211,26 +211,29 @@ header h1 {
     margin-right: 5%;
 }
 
+/*Logo del navbar */
+.navbar-brand img {
+    max-height: 50px; 
+    height: auto;     
+    width: auto;     
+}
 
+.llama-derecha{
+    display: none;
+}
+/*iconos del navbar */
+.logo-nav{
+    max-width: 25px; 
+    max-height: 25px; 
+    width: auto; 
+    height: auto; 
+}
 
 
 @media (min-width: 992px) {
-    .navbar-toggler {
-      display: none; /* Oculta el botón hamburguesa en pantallas grandes */
-    }
-      /*llama-derecha se muestra y llama-izquierda se oculta */
-    .llama-derecha {
-      display: inline-block; /* Muestra la frase en pantallas grandes */
-      font-size: 1.2rem;
-      margin-right: 20px; /* Alinea la frase completamente a la derecha */
-      
-    }
-    .llama-izquierda {
-        display: none; 
-        font-size: 1.2rem;
-        margin-right: 20px; /* Alinea la frase completamente a la derecha */
-        
-      }
+ 
+     
+   
       
       .cuartafila {
         min-width: 250px; /* Ajusta este valor según lo necesites */
@@ -241,24 +244,8 @@ header h1 {
   
   
   @media (max-width: 991px) {
-    .navbar-toggler {
-      display: block; /* Muestra el botón hamburguesa */
-      margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
-    }
 
-    /*llama-derecha se oculta y llama-izquierda se muestra */
-    .llama-derecha {
-        display: none; 
-        font-size: 1.2rem;
-        margin-right: 20px; 
-        
-      }
-      .llama-izquierda {
-          display: inline-block; 
-          font-size: 1.2rem;
-          margin-right: 20px; 
-          
-        }
+
         footer {
             margin-bottom: 0; /* Asegúrate de que no haya márgenes adicionales */
             padding-bottom: 0; /* Evita un relleno extra al final */
@@ -266,6 +253,10 @@ header h1 {
     
         body {
             min-height: 100vh; /* Para asegurarse de que la página ocupe todo el viewport */
+        }
+
+        .navbar-brand img {
+            max-height: 50px; 
         }
 
   }
@@ -315,8 +306,9 @@ header h1 {
         
         width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
     }
+
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
     .card-principal {
         max-width: 300px; /* Limite de anchura de mágenes para que no se vean demasiado grandes */
        
@@ -324,6 +316,9 @@ header h1 {
     #tarjetas{
         margin-top: -80px;
     }
+    .navbar-toggler {
+        display: none; /* Oculta el botón hamburguesa en pantallas grandes */
+      }
 }
 
 
@@ -352,8 +347,15 @@ header h1 {
     .zapi {
         font-size: 1.8rem;
     }
- 
-    
+
+    .navbar-brand img {
+        max-height: 40px; /* Asegura que no se reduzca en pantallas aún más pequeñas */
+    }
+
+    .navbar-toggler {
+        display: block; /* Muestra el botón hamburguesa */
+        margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
+      }
           
 }
 @media (max-width: 524px) {
