@@ -1,44 +1,53 @@
-/*Logo del navbar */
+/* Logo del navbar */
 .navbar-brand img {
     max-height: 50px; 
     height: auto;     
     width: auto;     
 }
 
-.llama-derecha{
-    display: none;
-}
-/*iconos del navbar */
+
+
+/* iconos del navbar */
 .logo-nav{
-    max-width: 25px; 
-    max-height: 25px; 
+    max-height: 20px; 
     width: auto; 
-    height: auto; 
 }
 
+/* Ocultar la frase "Llama gratis" del offcanvas en pantallas grandes */
+@media (min-width: 992px) {
+    .llama-offcanvas {
+        display: none;
+    }
+}
+
+/* Mostrar la frase "Llama gratis" en el offcanvas en pantallas pequeñas */
 @media (max-width: 991px) {
     .navbar-brand img {
         max-height: 50px; 
     }
-}
 
-@media (min-width: 769px){
-    .navbar-toggler {
-        display: none; /* Oculta el botón hamburguesa en pantallas grandes */
-      }
-}
-
-@media (max-width: 768px) {
-    .offcanvas-body .nav-item {
-        border-bottom: 1px solid #ddd; /* Línea separadora para el offcanvas */
-      }
-
-      .navbar-brand img {
-        max-height: 40px; /* Asegura que no se reduzca en pantallas aún más pequeñas */
+    .llama-offcanvas {
+        display: block; /* Muestra la frase en offcanvas en pantallas pequeñas */
+        text-align: center;
     }
 
     .navbar-toggler {
         display: block; /* Muestra el botón hamburguesa */
         margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
-      }
+    }
+}
+@media (min-width: 768px) {
+    .llama-offcanvas{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .offcanvas-body .nav-item {
+        border-bottom: 1px solid #ddd; /* Línea separadora para el offcanvas */
+    }
+
+    .navbar-brand img {
+        max-height: 40px; /* Asegura que no se reduzca en pantallas aún más pequeñas */
+    }
 }

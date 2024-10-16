@@ -209,10 +209,18 @@
 
         </div>
     </section>
-<!-- Segunda imagen-->
-    <header class="bg-white text-white text-center mt-2 mb-4" style="background-image: url('./img/fibraole/alcala.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
-        <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
-    </header>
+    <header class="text-white mt-2 mb-4 d-flex" style="background-image: url('./img/fibraole/alcala.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; height: 90vh; position: relative;">
+    <div class="container h-100 d-flex">
+        <div class="row h-100 align-items-start">
+            <div class="col-12 col-md-8 text-start content-box">
+                <p class="fs-5 fw-bold display-md-3 display-sm-4">DISFRUTA DE MÁS DE 90 CANALES EN TU TELEVISIÓN</p>
+                <p class="price">Por tan solo:</p>
+                <p class="price-large">7,99€ <span>(iva incluido)</span></p>
+                <button class="btn btn-warning">QUIERO SABER MÁS</button>
+            </div>
+        </div>
+    </div>
+</header>
 <!--Cuarta fila de tarjetas-->
 
 <section class="container my-5 mt-5 ">
