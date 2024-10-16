@@ -1,18 +1,18 @@
-<footer class="bg-dark text-white py-4">
+<footer class="bg-black text-white py-4 fondo-black">
     <div class="container">
         <!-- Logo -->
         <div class="row">
-            <div class="col ">
+            <div class="col">
                 <a class="navbar-brand" href="#">
                     <img src="./img/fibraole/logo_pie.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
                 </a>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-footer">
             <!-- Columna info empresa -->
             <div class="col-md-3">
-                <div class="row">
+                <div class="row ">
                     <!--Flexbox logo y telefono -->
                     <div class="col-md-12 d-flex align-items-center my-3">
                         <!-- Imagen del móvil alineada a la izquierda -->
@@ -47,35 +47,38 @@
                     Síguenos en: <br>
                     <img src="./img/fibraole/icono_facebook.png">
                     <img src="./img/fibraole/icono_instagram.png">
-                    <a href="#" class="text-white">fibraole</a>
+                    <a href="#" class="enlace-pie">fibraole</a>
                 </p>
 
             </div>
             <!--Columna medio -->
-            <div class="col-md-3 px-0">
-                <ul class="list-unstyled  border-start border-2 border-white ">
-                    <li class="m-3"><a href="#" class="text-white">Servicio Técnico</a></li>
-                    <li class="m-3"><a href="#" class="text-white">Zapi TV</a></li>
-                    <li class="m-3"><a href="#" class="text-white">Tarifas</a></li>
+            <div class="col-md-3 px-0 w-auto">
+                <ul class="list-unstyled  border-md-start border-md-2 border-md-white border-0 ">
+                    <li class="m-3 "><a href="#" class="enlace-pie" style="">Servicio Técnico</a></li>
+                    <li class="m-3 "><a href="#" class="enlace-pie">Zapi TV</a></li>
+                    <li class="m-3 "><a href="#" class="enlace-pie">Tarifas</a></li>
                 </ul>
             </div>
             <!--Columna derecha -->
             <div class="col-md-3 px-0 ">
-                <ul class="list-unstyled  border-start border-2 border-white ">
-                    <li class="m-3"><a href="#" class="text-white">Nosotros</a></li>
-                    <li class="m-3"><a href="#" class="text-white">Blog</a></li>
-                    <li class="m-3"><a href="#" class="text-white">FAQ</a></li>
+                <ul class="list-unstyled  border-md-start border-md-2 border-md-white border-0 ">
+                    <li class="m-3 "><a href="#" class="enlace-pie">Nosotros</a></li>
+                    <li class="m-3 "><a href="#" class="enlace-pie">Blog</a></li>
+                    <li class="m-3 "><a href="#" class="enlace-pie">FAQ</a></li>
                 </ul>
             </div>
+            
+            
+            <div class="col-md-3 px-0 d-flex flex-column justify-content-end w-auto bg-custom-footer">
 
-            <div class="col-md-3 px-0 d-flex flex-column justify-content-end w-auto ">
-
-                <ul class="list-unstyled text-start border-end border-2 border-white ">
-                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="text-white">AVISO LEGAL</a></li>
-                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="text-white">POLITICA DE COOKIES</a></li>
-                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="text-white">POLITICA DE PRIVACIDAD</a></li>
-
+            
+                <ul class="list-unstyled text-start border-md-end border-md-2 border-md-white border-0 ">
+                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="enlace-pie">AVISO LEGAL</a></li>
+                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="enlace-pie">POLITICA DE COOKIES</a></li>
+                    <li class="mb-2 me-3 small-text-footer"><a href="#" class="enlace-pie">POLITICA DE PRIVACIDAD</a></li>
+                    
                 </ul>
+                
 
             </div>
         </div>
