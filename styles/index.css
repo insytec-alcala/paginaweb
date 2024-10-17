@@ -309,6 +309,8 @@ a.enlace-pie:hover{
         width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
     }
 
+    
+
 }
 @media (min-width: 769px){
     .card-principal {
