@@ -234,10 +234,18 @@ a.enlace-pie:hover{
     justify-content: space-between;
 }
 
+.custom-header-tv{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../img/fibraole/alcala.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+   
+}
 
-
-
-
+.text-shadow {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
 
 
 @media (min-width: 992px) {
@@ -369,9 +377,6 @@ a.enlace-pie:hover{
         border: none;
     }
 
-   
-
- 
           
 }
 @media (max-width: 524px) {
