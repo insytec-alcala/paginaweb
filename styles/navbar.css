@@ -10,7 +10,6 @@
     width: auto;     
 }
 
-
 /* iconos del navbar */
 .logo-nav{
     max-height: 20px; 
@@ -19,10 +18,89 @@
 
 
 
-/* Ocultar la frase "Llama gratis" del offcanvas en pantallas grandes */
-@media (min-width: 992px) {
+/*Línea divisoria entre los elementos del menú */
+.navbar-nav .nav-item {
+    
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid orange; 
+}
+
+/*Esto evita que el último elemento tenga el borde cambiado */
+.navbar-nav .nav-item:last-child {
+    border-right: none;
+}
+/*Botón hamburguesa (no cambia las líneas de dentro)*/
+.navbar-toggler{
+    border: none;
+    background-color: rgba(13, 15, 59, 1);
+}
+/*Cambia el color de las líneas del botón hamburguesa (cambiar los valores de rgba para alterarlo) */
+.navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*Tamaño de letra de los elementos del menú */
+.nav-link{
+    font-size: 1.1rem;
+}
+
+@media (min-width: 1200px) {
+    /* Reducir el tamaño de los elementos del menú de navegación */
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;  /* Reduce el tamaño de la fuente del menú */
+        padding: 0.5rem 0.75rem;  /* Ajusta el padding para reducir el espacio entre los elementos */
+    }
+
+    /* Ajustar el tamaño de la frase "Llama gratis" */
+    .llama-izquierda {
+        font-size: 1rem;  /* Reduce el tamaño del texto */
+        margin-right: 1rem;  /* Agrega un pequeño margen a la derecha para evitar desbordamientos */
+    }
+
+    /* Ajustar la alineación y espaciado para el menú y la frase */
+    .navbar-nav {
+        flex-wrap: nowrap;  /* Evita que los elementos se envuelvan */
+        justify-content: flex-start;  /* Alinea el menú a la izquierda */
+    }
+
+    /* Reducir el tamaño del logo si es necesario */
+    .navbar-brand img {
+        max-height: 35px;  /* Ajusta la altura máxima del logo para pantallas grandes */
+    }
+}
+
+
+@media (min-width: 1200px) {
+    /* Reducir el ancho de los elementos del menú */
+    .navbar-nav .nav-item {
+        flex-grow: 0;  /* Impide que los elementos crezcan más allá de su contenido */
+        flex-shrink: 1;  /* Permite que los elementos reduzcan su tamaño si es necesario */
+        flex-basis: auto;  /* El ancho del elemento será determinado por el contenido */
+        width: auto;  /* Asegura que el ancho del elemento sea ajustable */
+        padding: 0 10px;  /* Ajusta el padding lateral para reducir el espacio ocupado */
+    }
+
+  
+    .navbar-nav .nav-link {
+        font-size: 0.9rem; 
+        padding: 0.5rem 0.75rem;  
+    }
+
+   
   
 
+    /* Ajustar la alineación de los elementos */
+    .navbar-nav {
+        flex-wrap: nowrap;  /* Evita que los elementos se envuelvan en una nueva línea */
+        justify-content: flex-start;  /* Alinea el menú a la izquierda */
+        max-width: 80%;
+    }
+
+    /* Ajustar el tamaño del logo para ahorrar espacio */
+    .navbar-brand img {
+        max-height: 35px;  /* Tamaño reducido del logo */
+    }
 }
 
 /* Mostrar la frase "Llama gratis" en el offcanvas en pantallas pequeñas */
@@ -40,11 +118,17 @@
         display: block; /* Muestra el botón hamburguesa */
         margin-left: auto; /* Coloca el botón hamburguesa a la derecha del todo */
     }
+    .navbar-nav .nav-item {
+        border-right: none; 
+         padding: 0;
+    }
+ 
 }
 @media (min-width: 768px) {
     .llama-offcanvas{
         display: none;
     }
+ 
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -56,6 +140,10 @@
     .llama-izquierda {
       display: none;
     }
+
+
+
+
   }
 
 @media (max-width: 768px) {
@@ -78,5 +166,10 @@
         justify-content: flex-end !important; 
         font-size: 1.5rem; 
     }
+
+    .navbar-nav .nav-item {
+        border-right: none; /*Elimina las líneas divisorias del menú*/
+    }
+
 
 }
