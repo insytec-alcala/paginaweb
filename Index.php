@@ -105,23 +105,23 @@
     <section class="container my-5">
     <div class="row  text-center px-3">
         <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-            <img src="img/fibraole/facturas_online.png">
+            <img src="img/fibraole/facturas_online.png" alt="Facturas Online">
             <p class="fw-bold fs-5">FACTURAS Y
                 CONSUMO
             ONLINE </p>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/alta_gratis.png">
+        <img src="img/fibraole/alta_gratis.png" alt="Alta Gratis">
             <p class="fw-bold fs-5">ALTA
                 GRATIS</p>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/amplia_cobertura.png">
+        <img src="img/fibraole/amplia_cobertura.png" alt="Amplia Cobertura">
             <p class="fw-bold fs-5">AMPLIA
                 COBERTURA</p>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/instalacion_gratuita.png" style="width: 60px; height: 66px;">
+        <img src="img/fibraole/instalacion_gratuita.png" style="width: 60px; height: 66px;" alt="Instalacion y desplazamiento">
             <p class="fw-bold fs-5">INSTALACIÓN Y
                 DESPLAZAMIENTO
             GRATUITO</p>
@@ -231,7 +231,7 @@
     <div class="row text-center justify-content-center">
         <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
             <div class="d-flex align-items-center mb-4">
-                <img src="./img/fibraole/icono_movil01.png" class="logo" alt="Icono" class="me-2">
+                <img src="./img/fibraole/icono_movil01.png" class="logo" alt="Fibraolé" class="me-2">
                 <span class="text-uppercase fw-bold">TARIFAS DE MÓVIL</span>
             </div>
             <!-- Tarjeta 1 -->
@@ -260,7 +260,7 @@
      
         <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
         <div class="d-flex align-items-center mb-4">
-                <img src="./img/fibraole/icono_fijo.png" class="logo" alt="Icono" class="me-2">
+                <img src="./img/fibraole/icono_fijo.png" class="logo" alt="Tarifas fijo" class="me-2">
                 <span class="text-uppercase fw-bold">TARIFAS DE FIJO</span>
             </div>
     <!-- Tarjeta 2 -->
@@ -369,28 +369,28 @@
     <section class="container my-5">
     <div class="row justify-content-center text-center px-3">
         <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png">
+            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_castillo">
             <p class="fw-bold fs-5 mb-0">CASTILLO DE<br>
              LOCUBÍN</p>
             <p fs-5>C/Veracruz 32<br>
             681 671 156</p>
         </div>
         <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png">
+            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_almedinilla">
             <p class="fw-bold fs-5 mb-0">ALMEDINILLA</p>
             <p fs-5>C/Cerrillo 17<br>
             953 584 344<br>
             694 498 620</p>
         </div>
         <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png">
+            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_alcala">
             <p class="fw-bold fs-5 mb-0">ALCALÁ LA REAL</p>
             <p fs-5>Avda. Europa 2<br>
             953 584 344<br>
             694 498 620</p>
         </div>
         <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png">
+            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_fuensanta">
             <p class="fw-bold fs-5 mb-0">FUENSANTA DE<br>
              MARTOS</p>
             <p fs-5>C/Real 32<br>

@@ -3,7 +3,7 @@
   <div class="container-fluid d-flex align-items-center justify-content-between flex-nowrap">
     <!-- Logo -->
     <a class="navbar-brand ms-5 me-5 flex-shrink-0" href="#">
-      <img src="./img/fibraole/logo_cabecera.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
+      <img src="./img/fibraole/logo_cabecera.png" alt="Fibraole" class="img-fluid" style="max-height: 40px;">
     </a>
 
   
@@ -17,7 +17,7 @@
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div class="offcanvas-header">
     <a class="navbar-brand ms-2" href="#">
-          <img src="./img/fibraole/logo_cabecera.png" alt="Logo" class="img-fluid" style="max-height: 40px;">
+          <img src="./img/fibraole/logo_cabecera.png" alt="Fibraole" class="img-fluid" style="max-height: 40px;">
         </a>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
    
@@ -27,33 +27,33 @@
           <ul class="navbar-nav ms-0 d-md-flex justify-content-start flex-wrap">
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="Fibra.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_wifi.png"> Fibra
+                <img class="logo-nav me-2" src="img/fibraole/icono_wifi.png" alt="Fibra"> Fibra
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="packahorro.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_ahorro.png"> Fibra+Móvil
+                <img class="logo-nav me-2" src="img/fibraole/icono_ahorro.png" alt="Fibra y Movil"> Fibra+Móvil
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="Fibra.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_wimax.png"> WIMAX
+                <img class="logo-nav me-2" src="img/fibraole/icono_wimax.png" alt=Wimax""> WIMAX
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="telefoniatv.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_movil_03.png"> Telefonía
+                <img class="logo-nav me-2" src="img/fibraole/icono_movil_03.png" alt="Telefonia"> Telefonía
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="telefoniatv.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_tv.png"> TV
+                <img class="logo-nav me-2" src="img/fibraole/icono_tv.png" alt="TV"> TV
               </a>
             </li>
             
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="serviciotecnico.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_tecnico.png"> Servicio Técnico
+                <img class="logo-nav me-2" src="img/fibraole/icono_tecnico.png" alt="Servicio Tecnico"> Servicio Técnico
               </a>
             </li>
     </ul>
