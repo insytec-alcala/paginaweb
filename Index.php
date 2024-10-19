@@ -218,7 +218,7 @@
                 <p class="fs-5 text-shadow">Por tan solo:</p>
                 <p class="display-4 display-md-2 fw-bold text-shadow">7,99€ </p>
                 <p><span class="fs-6 text-shadow">(iva incluido)</span></p>
-                <button class="btn btn-light btn-md mt-5 w-70 w-md-50 p-3 rounded-pill fw-bold text-shadow">QUIERO SABER MÁS</button>
+                <a href="#" class="btn btn-light btn-md mt-5 w-70 w-md-50 p-3 rounded-pill fw-bold " style="cursor: pointer;">QUIERO SABER MÁS</a>
             </div>
         </div>
     </div>

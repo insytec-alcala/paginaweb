@@ -50,11 +50,7 @@
                 <img class="logo-nav me-2" src="img/fibraole/icono_tv.png"> TV
               </a>
             </li>
-            <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
-              <a class="nav-link fw-bold text-dark text-nowrap" href="telefoniatv.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_movil+tv.png"> Telefonía+TV
-              </a>
-            </li>
+            
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="serviciotecnico.php">
                 <img class="logo-nav me-2" src="img/fibraole/icono_tecnico.png"> Servicio Técnico

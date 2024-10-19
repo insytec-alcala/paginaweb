@@ -247,6 +247,10 @@ a.enlace-pie:hover{
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 
 @media (min-width: 992px) {
  
