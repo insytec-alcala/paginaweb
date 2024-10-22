@@ -61,7 +61,7 @@
         <span class="fw-bold fs-4 text-warning">Llama gratis:<br>
          694 498 620</span>
           </div>
-      <span class="fw-bold llama-izquierda fs-5 text-warning d-none d-xl-inline-block me-xl-3 ms-xl-auto">Llama gratis: 694 498 620</span>
+      <span class="fw-bold llama-izquierda fs-5 text-warning d-none d-flex-wrap d-xl-inline-block me-xl-3 ms-xl-auto">Llama gratis: 694 498 620</span>
 
     </div>
   </div>

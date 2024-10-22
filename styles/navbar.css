@@ -1,6 +1,7 @@
 
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25); /* Ajusta los valores para modificar la sombra */
+    overflow-x: hidden;
 }
 
 /* Logo del navbar */
@@ -83,8 +84,8 @@
 
   
     .navbar-nav .nav-link {
-        font-size: 0.9rem; 
-        padding: 0.5rem 0.75rem;  
+        font-size: 0.8rem; 
+        padding: 0.3rem 0.5rem;  
     }
 
    
@@ -94,7 +95,7 @@
     .navbar-nav {
         flex-wrap: nowrap;  /* Evita que los elementos se envuelvan en una nueva línea */
         justify-content: flex-start;  /* Alinea el menú a la izquierda */
-        max-width: 80%;
+        max-width: 75%;
     }
 
     /* Ajustar el tamaño del logo para ahorrar espacio */
