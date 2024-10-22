@@ -11,22 +11,13 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/index_principal.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
+    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_con_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 <!--Primera fila de tarjetas -->
     <section class="container my-5 mt-5 mt-md-0 ">
     <div class="row justify-content-center text-center px-3" id="tarjetas">
 
-<<<<<<< HEAD
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card card-principal border-0 h-100">
-                <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
-                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">POR SOLO:</p>
-                    <h3 class="card-title zapi mx-auto">7,99€</h3>
-                    <a href="#" class="btn btn-primary mx-auto sabermas box-shadow">Saber más</a>
-=======
     <div class="col-12 col-md-6 col-xl-4 mb-5 d-flex justify-content-center">
     <div class="card tarjeta border-0 h-100">
         <div class="card-body d-flex flex-column justify-content-between">
@@ -37,7 +28,6 @@
                 </div>
                 <div class="order-2 order-lg-1 flex-grow-1">
                     <p class="parrafo-superior card-text fw-bold text-uppercase text-start">LA FIBRA QUE SE ADAPTA A TI EL MEJOR SERVICIO</p>
->>>>>>> c9338efad369eec9fb06c26ea1659b1c57824bef
                 </div>
             </div>
 
@@ -166,25 +156,25 @@
     </section>
 
     <section class="container my-5">
-    <div class="row  text-center px-3">
-        <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-            <img src="img/fibraole/facturas_online.png" alt="Facturas Online">
+    <div class="row justify-content-center text-center px-3">
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ahorro.png">
             <p class="fw-bold fs-5">FACTURAS Y
                 CONSUMO
             ONLINE </p>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/alta_gratis.png" alt="Alta Gratis">
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
             <p class="fw-bold fs-5">ALTA
                 GRATIS</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/amplia_cobertura.png" alt="Amplia Cobertura">
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
             <p class="fw-bold fs-5">AMPLIA
                 COBERTURA</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 mb-4  ">
-        <img src="img/fibraole/instalacion_gratuita.png" style="width: 60px; height: 66px;" alt="Instalacion y desplazamiento">
+        <div class="col-md-3 ">
+        <img src="img/fibraole/icono_ahorro.png">
             <p class="fw-bold fs-5">INSTALACIÓN Y
                 DESPLAZAMIENTO
             GRATUITO</p>
@@ -272,30 +262,25 @@
 
         </div>
     </section>
-    <header class="text-white mt-2 mb-4 d-flex align-items-center justify-content-start custom-header-tv">
-    <div class="container h-100 d-flex align-items-center">
-        <div class="row w-60 h-100 justify-content-start align-items-center fs-2">
-            <div class="col-12 col-md-8 col-lg-6 text-start content-box">
-                <i class="bi bi-tv-fill fs-1 mb-3"></i>
-                <p class="fs-3 fs-md-1 fw-bold mb-2 text-shadow">DISFRUTA DE MÁS DE 90 CANALES EN TU TELEVISIÓN</p>
-                <p class="fs-5 text-shadow">Por tan solo:</p>
-                <p class="display-4 display-md-2 fw-bold text-shadow">7,99€ </p>
-                <p><span class="fs-6 text-shadow">(iva incluido)</span></p>
-                <a href="#" class="btn btn-light btn-md mt-5 w-70 w-md-50 p-3 rounded-pill fw-bold " style="cursor: pointer;">QUIERO SABER MÁS</a>
-                
+    <header class="text-white mt-2 mb-4 d-flex" style="background-image: url('./img/fibraole/alcala.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; height: 90vh; position: relative;">
+    <div class="container h-100 d-flex">
+        <div class="row h-100 align-items-start">
+            <div class="col-12 col-md-8 text-start content-box">
+                <p class="fs-5 fw-bold display-md-3 display-sm-4">DISFRUTA DE MÁS DE 90 CANALES EN TU TELEVISIÓN</p>
+                <p class="price">Por tan solo:</p>
+                <p class="price-large">7,99€ <span>(iva incluido)</span></p>
+                <button class="btn btn-warning">QUIERO SABER MÁS</button>
             </div>
         </div>
     </div>
 </header>
-
-
 <!--Cuarta fila de tarjetas-->
 
 <section class="container my-5 mt-5 ">
     <div class="row text-center justify-content-center">
         <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
             <div class="d-flex align-items-center mb-4">
-                <img src="./img/fibraole/icono_movil01.png" class="logo" alt="Fibraolé" class="me-2">
+                <img src="./img/fibraole/icono_movil01.png" class="logo" alt="Icono" class="me-2">
                 <span class="text-uppercase fw-bold">TARIFAS DE MÓVIL</span>
             </div>
             <!-- Tarjeta 1 -->
@@ -324,7 +309,7 @@
      
         <div class="col-md-4 mb-4 d-flex flex-column align-items-center">
         <div class="d-flex align-items-center mb-4">
-                <img src="./img/fibraole/icono_fijo.png" class="logo" alt="Tarifas fijo" class="me-2">
+                <img src="./img/fibraole/icono_fijo.png" class="logo" alt="Icono" class="me-2">
                 <span class="text-uppercase fw-bold">TARIFAS DE FIJO</span>
             </div>
     <!-- Tarjeta 2 -->
@@ -355,8 +340,6 @@
         </div>
     </div>
 </section>
-
-
 <!--Línea discontinua -->
 <p class="mb-3">
         <hr class="discontinua">
@@ -364,9 +347,40 @@
    
 
 
-<!-- Tiendas-->
+    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
 
-    <?php include 'tiendas.php' ?>
+    <section class="container my-5">
+    <div class="row justify-content-center text-center px-3">
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ubicacion.png">
+            <p class="fw-bold fs-5 mb-0">CASTILLO DE<br>
+             LOCUBÍN</p>
+            <p fs-5>C/Veracruz 32<br>
+            681 671 156</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ubicacion.png">
+            <p class="fw-bold fs-5 mb-0">ALMEDINILLA</p>
+            <p fs-5>C/Cerrillo 17<br>
+            953 584 344<br>
+            694 498 620</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ubicacion.png">
+            <p class="fw-bold fs-5 mb-0">ALCALÁ LA REAL</p>
+            <p fs-5>Avda. Europa 2<br>
+            953 584 344<br>
+            694 498 620</p>
+        </div>
+        <div class="col-md-3 ">
+            <img src="img/fibraole/icono_ubicacion.png">
+            <p class="fw-bold fs-5 mb-0">FUENSANTA DE<br>
+             MARTOS</p>
+            <p fs-5>C/Real 32<br>
+            953 059 797</p>
+        </div>
+    </div>
+</section>
 
 <!-- footer-->
    <?php include 'footer.php'  ?>

@@ -14,7 +14,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     position: relative; 
     z-index: -1;
 }
@@ -253,37 +253,12 @@ a.enlace-pie:hover{
     justify-content: space-between;
 }
 
-
-.custom-header-tv{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../img/fibraole/index_television.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-   
-}
-
-.text-shadow {
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Más oscuro y más grande */
-}
-
-.box-shadow {
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Similar ajuste para el botón */
-}
-
 .condiciones{
     font-size: 0.7rem;
-
-}
-
-.box-shadow {
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Similar ajuste para el botón */
 }
 
 
-.cursor-pointer {
-    cursor: pointer;
-}
+
 
 
 @media (min-width: 992px) {
@@ -338,8 +313,6 @@ a.enlace-pie:hover{
         width: 100%; /* Hace que ambas tarjetas tengan el mismo ancho */
     }
 
-    
-
 }
 @media (min-width: 769px){
 
@@ -393,6 +366,9 @@ a.enlace-pie:hover{
         border: none;
     }
 
+   
+
+ 
           
 }
 @media (max-width: 524px) {

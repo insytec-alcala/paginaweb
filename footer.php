@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/fibraole/logo_pie.png" alt="Fibraole" class="img-fluid" style="max-height: 50px;">
+                    <img src="./img/fibraole/logo_pie.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
                 </a>
             </div>
         </div>
@@ -16,7 +16,7 @@
                     <!--Flexbox logo y telefono -->
                     <div class="col-md-12 d-flex align-items-center my-3">
                         <!-- Imagen del móvil alineada a la izquierda -->
-                        <img src="./img/fibraole/icono_movil02.png" class="me-3" style="max-height: 50px;" alt="Telefono">
+                        <img src="./img/fibraole/icono_movil02.png" class="me-3" style="max-height: 50px;">
 
                         <!-- Texto alineado justo a la derecha de la imagen -->
                         <div>
@@ -28,7 +28,7 @@
 
                 <div class="row">
                     <div class="col-md-12 d-flex align-items-center">
-                        <img src="./img/fibraole/icono_incidencias.png" class="me-3" style="max-width: 50px;" alt="Telefono de incidencias">
+                        <img src="./img/fibraole/icono_incidencias.png" class="me-3" style="max-width: 50px;">
 
                         <div>
                             <!-- Asegurar que la frase no se divida -->
@@ -45,9 +45,9 @@
 
                 <p class="my-3">
                     Síguenos en: <br>
-                    <img src="./img/fibraole/icono_facebook.png" alt="Facebook">
-                    <img src="./img/fibraole/icono_instagram.png" alt="Instagram">
-                    <a href="https://www.instagram.com/insytecalcalalareal" class="enlace-pie">fibraole</a>
+                    <img src="./img/fibraole/icono_facebook.png">
+                    <img src="./img/fibraole/icono_instagram.png">
+                    <a href="#" class="enlace-pie">fibraole</a>
                 </p>
 
             </div>
