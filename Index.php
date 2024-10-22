@@ -19,7 +19,7 @@
     <div class="row justify-content-center text-center px-3" id="tarjetas">
         <div class="col-md-4 mb-4 d-flex justify-content-center">
             <!--Añadir d-flex y justify-content-center hace que la tarjeta se centre dentro del div -->
-            <div class="card card-principal border-0 h-100">
+            <div class="card tarjeta border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO</p>
                     <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card card-principal border-0 h-100">
+            <div class="card tarjeta border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
                     <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">POR SOLO:</p>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card card-principal border-0 h-100">
+            <div class="card tarjeta border-0 h-100">
                 <div class="card-body d-flex flex-column justify-content-between">
                     <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. Oferta de internet</p>
                     <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
@@ -291,74 +291,8 @@
 <p class="mb-3">
         <hr class="discontinua">
     </p>
-    <section class="container my-5">
-    <div class="row text-center mt-5">
-        <div class="col-12">
-            <p class="fw-bold fs-3">ÚLTIMAS NOVEDADES</p>
-        </div>
-    </div>
+   
 
-    <div class="row gx-lg-5 text-center">
-        <!-- Primera noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">¿Cuáles son las ventajas de elegir a Insytec como tu operador de telecomunicaciones?</h5>
-                    <p class="card-text">
-                        Cuando se trata de elegir un operador de telecomunicaciones, es importante considerar diversas variables que...
-                    </p>
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-
-        <!-- Segunda noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">¿Qué es WiMAX y cómo puede mejorar tu conexión a Internet?</h5>
-                    <p class="card-text">
-                        En la actualidad, estar conectado a internet se ha vuelto una necesidad fundamental en nuestra vida cotidiana.
-                    </p>
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-
-        <!-- Tercera noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">Conectividad sin límites: Descubre las tarifas de móvil ilimitadas de Insytec</h5>
-                    <p class="card-text">
-                        En la era digital en la que vivimos, estar conectados en todo momento se ha convertido en una necesidad. Nuestros...
-                    </p>
-                    
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Línea discontinua -->
-<p class="mb-3">
-        <hr class="discontinua">
-    </p>
 
     <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
 
