@@ -17,39 +17,76 @@
 <!--Primera fila de tarjetas -->
     <section class="container my-5 mt-5 mt-md-0 ">
     <div class="row justify-content-center text-center px-3" id="tarjetas">
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <!--Añadir d-flex y justify-content-center hace que la tarjeta se centre dentro del div -->
-            <div class="card tarjeta border-0 h-100">
-                <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. EL MEJOR SERVICIO</p>
-                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
-                    <h1 class="card-title mx-auto">1 GIGA</h1>
-                    <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card tarjeta border-0 h-100">
-                <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
-                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">POR SOLO:</p>
-                    <h3 class="card-title zapi mx-auto">7,99€</h3>
-                    <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
+    <div class="col-12 col-md-6 col-xl-4 mb-5 d-flex justify-content-center">
+    <div class="card tarjeta border-0 h-100">
+        <div class="card-body d-flex flex-column justify-content-between">
+            <!--mitad superior-->
+            <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start mb-3">
+                <div class="order-1 order-lg-2 mb-2 mb-lg-0">
+                    <img src="./img/fibraole/icono_wifi.png" class="icono-tarjeta" alt="icono"> 
+                </div>
+                <div class="order-2 order-lg-1 flex-grow-1">
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">LA FIBRA QUE SE ADAPTA A TI EL MEJOR SERVICIO</p>
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card tarjeta border-0 h-100">
-                <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text fw-bold ">LA FIBRA QUE MAS SE ADAPTA A TI. Oferta de internet</p>
-                    <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">PROXIMAMENTE:</p>
-                    <h1 class="card-title mx-auto">1 GIGA</h1>
-                    <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
-                </div>
+            <!--mitad inferior -->
+            <div class="mt-auto text-start">
+                <p class="card-text mb-0 mt-1">YA ESTÁ AQUÍ:</p>
+                <h1 class="card-title mb-3">1 GIGA</h1>
+                <a href="#" class="btn btn-primary sabermas mb-3 mb-md-0 mt-2 mt-lg-0">¡SABER MÁS!</a>
             </div>
         </div>
+    </div>
+</div>
+
+    <div class="col-12 col-md-6 col-xl-4 mb-5 d-flex justify-content-center">
+        <div class="card tarjeta border-0 h-100">
+            <div class="card-body d-flex flex-column justify-content-between">
+                 <!--mitad superior-->
+                 <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start mb-3">
+                <div class="order-1 order-lg-2 mb-2 mb-lg-0">
+                    <img src="./img/fibraole/icono_tv.png" class="icono-tarjeta" alt="icono"> 
+                </div>
+                <div class="order-2 order-lg-1 flex-grow-1">
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
+                </div>
+            </div>
+
+                <!--mitad inferior -->
+                <div class="mt-auto text-start">
+                    <p class="card-text mb-0 mt-1">POR SOLO:</p>
+                    <h1 class="card-title mb-3">7,99<p class="fs-5 fw-bold text-black d-inline">€/mes</p></h1>
+                <a href="#" class="btn btn-primary sabermas mb-3 mb-md-0 mt-2 mt-lg-0">¡SABER MÁS!</a>
+                </div>
+             </div>
+        </div>
+    </div>
+
+         <div class="col-12 col-md-6 col-xl-4 mb-5 d-flex justify-content-center">
+        <div class="card tarjeta border-0 h-100">
+            <div class="card-body d-flex flex-column justify-content-between">
+                 <!--mitad superior-->
+                 <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start mb-3">
+                <div class="order-1 order-lg-2 mb-2 mb-lg-0">
+                    <img src="./img/fibraole/icono_tecnico.png" class="icono-tarjeta" alt="icono"> 
+                </div>
+                <div class="order-2 order-lg-1 flex-grow-1">
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">SERVICIO TÉCNICO SMARTPHONES PORTÁTILES...</p>
+                </div>
+            </div>
+
+                <!--mitad inferior -->
+                <div class="mt-auto text-start">    
+                    <h1 class="ct-2 mb-0 mt-1">TALLER PROPIO</h1>
+                    <p class="card-text mb-3">SERVICIO TÉCNICO A UN PASO</p>
+                <a href="#" class="btn btn-primary sabermas mb-3 mb-md-0 mt-2 mt-lg-0">¡SABER MÁS!</a>
+                </div>
+             </div>
+        </div>
+    </div>
+
     </div>
 </section>
 <!--Línea discontinua  -->
@@ -63,41 +100,57 @@
 <!--Segunda fila de tarjetas -->
     <section class="container my-5">
         <div class="row justify-content-center text-center">
-            <div class="col-md-6 col-lg-5 mb-4 fila2">
-                <div class="card card-secundaria  text-center border-0">
-                    <div class="card-header custom-header" >
-                         <span style="color: orange;">FIBRA DE 300MB</span>
-                     </div>
-                     <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text">al mes</p>
-                    <h5 class="card-title fs-1 fw-bold">10,90€</h5>
-                        <p class="card-text">
-                            primeros 6 meses, despues 17,90€ <br>
-                            +Alta Gratis (iva incluido)
-                        </p>
-                        <a href="#" class="btn btn-warning fw-bold mt-4 loquiero">¡LO QUIERO!</a>
-                    </div>
 
+            <div class="col-md-6 col-lg-5 mb-4 fila2">
+            <div class="card tarjeta border-0 h-100">
+        <div class="card-body d-flex flex-column justify-content-between">
+            <!--mitad superior-->
+            <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start mb-3">
+                <div class="order-1 order-lg-2 mb-2 mb-lg-0">
+                    <img src="./img/fibraole/icono_wifi.png" class="icono-tarjeta" alt="icono"> 
                 </div>
+                <div class="order-2 order-lg-1 flex-grow-1">
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">FIBRA 1000</p>
+                </div>
+            </div>
+
+            <!--mitad inferior -->
+            <div class="mt-auto text-start">
+                <h1 class="card-title mb-3">19,90<p class="fs-5 fw-bold text-black d-inline">€/mes</p></h1>
+                <a href="#" class="btn btn-primary sabermas mb-3 mb-md-0 mt-2 mt-lg-0">¡SABER MÁS!</a>
+            </div>
+        </div>
+    </div>
             </div>
             
             <div class="col-md-6 col-lg-5 mb-4 fila2">
-                <div class="card card-secundaria text-center  border-0">
-                    <div class="card-header custom-header">
-                         <span style="color: orange;">FIBRA DE 600MB</span>
-                     </div>
-                     <div class="card-body d-flex flex-column justify-content-between">
-                    <p class="card-text">al mes</p>
-                    <h5 class="card-title fs-1 fw-bold">10,90€</h5>
-                        <p class="card-text">
-                            primeros 6 meses, despues 19,90€ <br>
-                            +Alta Gratis (iva incluido)
-                        </p>
-                        <a href="#" class="btn btn-warning fw-bold mt-4 loquiero">¡LO QUIERO!</a>
-                    </div>
-
+            <div class="card tarjeta border-0 h-100">
+        <div class="card-body d-flex flex-column justify-content-between">
+            <!--mitad superior-->
+            <div class="d-flex flex-column flex-lg-row justify-content-start align-items-start mb-3">
+                <div class="order-1 order-lg-2 mb-2 mb-lg-0">
+                    <img src="./img/fibraole/icono_wifi.png" class="icono-tarjeta" alt="icono"> 
+                </div>
+                <div class="order-2 order-lg-1 flex-grow-1">
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">FIBRA 600</p>
                 </div>
             </div>
+
+            <!--mitad inferior -->
+            <div class="mt-auto text-start">
+                <h1 class="card-title mb-3">18,90<p class="fs-5 fw-bold text-black d-inline">€/mes</p></h1>
+                <div class="row mt-auto text-start">
+                    <div class="col-xl-7 col-lg-12">
+                <p class="condiciones mt-auto">DURANTE 24 MESES<br>DESPUÉS:24,90€</p> 
+                    </div>  
+                    <div class="col-xl-5 col-lg-12">
+                <a href="#" class="btn btn-primary sabermas mb-3 mb-md-0 mt-2 mt-lg-0">¡SABER MÁS!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
         </div>
     </section>

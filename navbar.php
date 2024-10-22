@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="packahorro.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_ahorro.png"> Fibra+Móvil
+                <img class="logo-nav me-2" src="img/fibraole/icono_wifi.png"> Fibra+Móvil
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
@@ -48,11 +48,6 @@
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="telefoniatv.php">
                 <img class="logo-nav me-2" src="img/fibraole/icono_tv.png"> TV
-              </a>
-            </li>
-            <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
-              <a class="nav-link fw-bold text-dark text-nowrap" href="telefoniatv.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_movil+tv.png"> Telefonía+TV
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
