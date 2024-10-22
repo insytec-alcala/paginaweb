@@ -11,7 +11,7 @@
 <body>
     <?php include 'navbar.php' ?>
 
-    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/alcala_con_letras.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
+    <header class="bg-white text-white text-center" style="background-image: url('./img/fibraole/index_principal.jpg');  background-position: center; background-repeat: no-repeat; padding: 5rem 0;">
         <!--Cambio de bg-dark a bg-white y background-size: contain para una imágen de fondo responsiva -->
     </header>
 <!--Primera fila de tarjetas -->
@@ -35,7 +35,7 @@
                     <p class="card-text fw-bold ">SERVICIO DE TV ZAPI +90 CANALES A TU DISPOSICIÓN</p>
                     <p class="text-center" style="color: orange; font-weight: bold; font-size: 12px">POR SOLO:</p>
                     <h3 class="card-title zapi mx-auto">7,99€</h3>
-                    <a href="#" class="btn btn-primary mx-auto sabermas">Saber más</a>
+                    <a href="#" class="btn btn-primary mx-auto sabermas box-shadow">Saber más</a>
                 </div>
             </div>
         </div>
@@ -219,6 +219,7 @@
                 <p class="display-4 display-md-2 fw-bold text-shadow">7,99€ </p>
                 <p><span class="fs-6 text-shadow">(iva incluido)</span></p>
                 <a href="#" class="btn btn-light btn-md mt-5 w-70 w-md-50 p-3 rounded-pill fw-bold " style="cursor: pointer;">QUIERO SABER MÁS</a>
+                
             </div>
         </div>
     </div>
@@ -291,113 +292,16 @@
         </div>
     </div>
 </section>
+
+
 <!--Línea discontinua -->
-<p class="mb-3">
-        <hr class="discontinua">
-    </p>
-    <section class="container my-5">
-    <div class="row text-center mt-5">
-        <div class="col-12">
-            <p class="fw-bold fs-3">ÚLTIMAS NOVEDADES</p>
-        </div>
-    </div>
-
-    <div class="row gx-lg-5 text-center">
-        <!-- Primera noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">¿Cuáles son las ventajas de elegir a Insytec como tu operador de telecomunicaciones?</h5>
-                    <p class="card-text">
-                        Cuando se trata de elegir un operador de telecomunicaciones, es importante considerar diversas variables que...
-                    </p>
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-
-        <!-- Segunda noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">¿Qué es WiMAX y cómo puede mejorar tu conexión a Internet?</h5>
-                    <p class="card-text">
-                        En la actualidad, estar conectado a internet se ha vuelto una necesidad fundamental en nuestra vida cotidiana.
-                    </p>
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-
-        <!-- Tercera noticia -->
-        <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="card border-0 bg-transparent">
-                <!-- Imagen destacada -->
-                <div class="bg-image hover-overlay ripple mt-2" data-mdb-ripple-color="light">
-                <img src="./img/fibraole/castillo_locubin_con_letras.jpg" class="img-fluid rounded-2" style="object-fit: cover;" />                </div>
-
-                <!-- Contenido del artículo -->
-                <div class="card-body">
-                    <h5 class=" fw-bold">Conectividad sin límites: Descubre las tarifas de móvil ilimitadas de Insytec</h5>
-                    <p class="card-text">
-                        En la era digital en la que vivimos, estar conectados en todo momento se ha convertido en una necesidad. Nuestros...
-                    </p>
-                    
-                </div>
-                <a href="#" class="text-black mb-auto">Ver más</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Línea discontinua -->
-<p class="mb-3">
+<p clas="mb-3">
         <hr class="discontinua">
     </p>
 
-    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
+<!-- Tiendas-->
 
-    <section class="container my-5">
-    <div class="row justify-content-center text-center px-3">
-        <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_castillo">
-            <p class="fw-bold fs-5 mb-0">CASTILLO DE<br>
-             LOCUBÍN</p>
-            <p fs-5>C/Veracruz 32<br>
-            681 671 156</p>
-        </div>
-        <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_almedinilla">
-            <p class="fw-bold fs-5 mb-0">ALMEDINILLA</p>
-            <p fs-5>C/Cerrillo 17<br>
-            953 584 344<br>
-            694 498 620</p>
-        </div>
-        <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_alcala">
-            <p class="fw-bold fs-5 mb-0">ALCALÁ LA REAL</p>
-            <p fs-5>Avda. Europa 2<br>
-            953 584 344<br>
-            694 498 620</p>
-        </div>
-        <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ubicacion.png" alt="ubicacion_fuensanta">
-            <p class="fw-bold fs-5 mb-0">FUENSANTA DE<br>
-             MARTOS</p>
-            <p fs-5>C/Real 32<br>
-            953 059 797</p>
-        </div>
-    </div>
-</section>
+    <?php include 'tiendas.php' ?>
 
 <!-- footer-->
    <?php include 'footer.php'  ?>

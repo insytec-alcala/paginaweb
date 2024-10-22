@@ -37,7 +37,7 @@
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
               <a class="nav-link fw-bold text-dark text-nowrap" href="Fibra.php">
-                <img class="logo-nav me-2" src="img/fibraole/icono_wimax.png" alt=Wimax""> WIMAX
+                <img class="logo-nav me-2" src="img/fibraole/icono_wimax.png" alt=Wimax""> Wimax
               </a>
             </li>
             <li class="nav-item d-flex align-items-center me-2 xl-me-0 col">
