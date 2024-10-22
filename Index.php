@@ -73,7 +73,7 @@
                     <img src="./img/fibraole/icono_tecnico.png" class="icono-tarjeta" alt="icono"> 
                 </div>
                 <div class="order-2 order-lg-1 flex-grow-1">
-                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">SERVICIO TÉCNICO SMARTPHONES PORTÁTILES...</p>
+                    <p class="parrafo-superior card-text fw-bold text-uppercase text-start">SERVICIO TÉCNICO: SMARTPHONES PORTÁTILES...</p>
                 </div>
             </div>
 
