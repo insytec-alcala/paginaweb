@@ -257,7 +257,18 @@ a.enlace-pie:hover{
     font-size: 0.7rem;
 }
 
+.custom-header-tv{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('../img/fibraole/index_television.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+   
+}
 
+.text-shadow {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
 
 
 
