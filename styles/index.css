@@ -26,13 +26,7 @@ header h1 {
 
 
 
-.btn-primary{
-    background-color: #4b79a1;
-    border: none;
-    transition: background-color 0.4s ease;
-    border-radius: 25px;
-    width: 100%;
-}
+
 
 .btn-primary:hover {
     
@@ -139,8 +133,8 @@ header h1 {
     color: white;
     font-weight: bold;
     border-radius: 25px;
-    padding: 0.75rem;
-    font-size: 1rem;
+    padding: 0.3rem 0.75rem; 
+    font-size: 0.7rem; 
     text-align: center;
     width: auto;
 }
@@ -194,7 +188,7 @@ header h1 {
 
 
 .fila2{
-    max-width: 350px;
+    max-width: 400px;
     padding-left: 2rem; 
     padding-right: 2rem; 
 }
@@ -255,6 +249,7 @@ a.enlace-pie:hover{
 
 .condiciones{
     font-size: 0.7rem;
+   
 }
 
 .custom-header-tv{
