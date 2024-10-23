@@ -347,7 +347,7 @@
    
 
 
-    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICAS</span></p>
+    <p class="fs-3 text-center fw-bolder">PUEDES CONTRATAR NUESTROS SERVICIOS EN NUESTRAS <span class="text-warning">TIENDAS FÍSICA</span></p>
 
     <section class="container my-5">
     <div class="row justify-content-center text-center px-3">
