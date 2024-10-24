@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles/footer.css">
 <footer class="bg-black text-white py-4 fondo-black">
     <div class="container">
         <!-- Logo -->

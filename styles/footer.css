@@ -1,0 +1,56 @@
+/*Estilos del pie*/
+
+a.enlace-pie{
+    text-decoration: none;
+    color: white;
+}
+a.enlace-pie:hover{
+    color: #ffc107;
+}
+
+
+.small-text-footer {
+    font-size: 0.65rem; /* Ajusta el tamaño a tu gusto */
+}
+
+.fondo-black{
+    background-color: #000;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+
+    footer {
+        margin-bottom: 0; /* Asegúrate de que no haya márgenes adicionales */
+        padding-bottom: 0; /* Evita un relleno extra al final */
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    .row-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .row-footer .col-md-3 {
+        width: 100%; /* Asegura que las columnas ocupen todo el ancho */
+        margin-bottom: 1.5rem; /* Añade espaciado entre las columnas */
+    }
+
+    /* Eliminar líneas verticales en móvil */
+    .row-footer .border-start,
+    .row-footer .border-end {
+        border: none;
+    }
+       
+}

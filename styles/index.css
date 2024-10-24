@@ -90,7 +90,8 @@ header h1 {
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 100%; 
+    height: auto; 
+    
 }
 
 .card-body {
@@ -121,8 +122,8 @@ header h1 {
 
 /* Icono ajustado */
 .icono-tarjeta {
-    width: 24px;  /* Tamaño fijo para el icono */
-    height: 24px;
+    max-width: 30px;  /* Tamaño fijo para el icono */
+    max-height: 30px;
     opacity: 0.8;
     margin-left: 10px; /* Espacio entre el texto y el icono */
 }
@@ -133,10 +134,11 @@ header h1 {
     color: white;
     font-weight: bold;
     border-radius: 25px;
-    padding: 0.3rem 0.75rem; 
-    font-size: 0.7rem; 
+    padding: 0.25rem 2rem; 
+    font-size: 0.85rem; 
     text-align: center;
     width: auto;
+    
 }
 
 .sabermas:hover {
@@ -187,11 +189,6 @@ header h1 {
 }
 
 
-.fila2{
-    max-width: 400px;
-    padding-left: 2rem; 
-    padding-right: 2rem; 
-}
 
 
 .card-text {
@@ -224,28 +221,6 @@ header h1 {
     margin-right: 5%;
 }
 
-/*Estilos del pie*/
-
-a.enlace-pie{
-    text-decoration: none;
-    color: white;
-}
-a.enlace-pie:hover{
-    color: #ffc107;
-}
-
-
-.small-text-footer {
-    font-size: 0.65rem; /* Ajusta el tamaño a tu gusto */
-}
-
-.fondo-black{
-    background-color: #000;
-}
-
-.row-footer{
-    justify-content: space-between;
-}
 
 .condiciones{
     font-size: 0.7rem;
@@ -270,10 +245,6 @@ a.enlace-pie:hover{
   
   @media (max-width: 991px) {
 
-        footer {
-            margin-bottom: 0; /* Asegúrate de que no haya márgenes adicionales */
-            padding-bottom: 0; /* Evita un relleno extra al final */
-        }
     
         body {
             min-height: 100vh; /* Para asegurarse de que la página ocupe todo el viewport */
@@ -288,10 +259,7 @@ a.enlace-pie:hover{
         .icono-tarjeta {
             align-self: flex-start; /* Alinea el icono en la parte superior */
         }
-    
-        .d-flex {
-            flex-direction: column; /* Cambia la dirección de los elementos para que el icono y el texto queden en columnas */
-        }
+  
         .sabermas {
            
             width: 100%;
@@ -340,33 +308,7 @@ a.enlace-pie:hover{
         font-size: 2rem; /* Disminuir el tamaño del título en pantallas pequeñas */
     }
 
-
-
-    footer {
-        padding: 2rem 1rem;
-    }
-
-    .row-footer {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .row-footer .col-md-3 {
-        width: 100%; /* Asegura que las columnas ocupen todo el ancho */
-        margin-bottom: 1.5rem; /* Añade espaciado entre las columnas */
-    }
-
-    /* Eliminar líneas verticales en móvil */
-    .row-footer .border-start,
-    .row-footer .border-end {
-        border: none;
-    }
-
-   
-
- 
-          
+      
 }
 @media (max-width: 524px) {
    
