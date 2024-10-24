@@ -163,32 +163,8 @@
         </div>
     </section>
 
-    <section class="container my-5">
-    <div class="row justify-content-center text-center px-3">
-        <div class="col-md-3 ">
-            <img src="img/fibraole/icono_ahorro.png">
-            <p class="fw-bold fs-5">FACTURAS Y
-                CONSUMO
-            ONLINE </p>
-        </div>
-        <div class="col-md-3 ">
-        <img src="img/fibraole/icono_ahorro.png">
-            <p class="fw-bold fs-5">ALTA
-                GRATIS</p>
-        </div>
-        <div class="col-md-3 ">
-        <img src="img/fibraole/icono_ahorro.png">
-            <p class="fw-bold fs-5">AMPLIA
-                COBERTURA</p>
-        </div>
-        <div class="col-md-3 ">
-        <img src="img/fibraole/icono_ahorro.png">
-            <p class="fw-bold fs-5">INSTALACIÓN Y
-                DESPLAZAMIENTO
-            GRATUITO</p>
-        </div>
-    </div>
-</section>
+    <?php include 'ventajas_genericas.php' ?>
+  
 <!--Línea discontinua -->
     <p class="mb-3">
         <hr class="discontinua">
